@@ -171,7 +171,7 @@
 
     move-result-object v0
 
-    sget v1, Lcom/resouce/module/ResSTYLE;->Animations.push_left_in_right_out:I
+    sget v1, Lcom/resouce/module/ResSTYLE;->Animations_push_left_in_right_out:I
 
     invoke-virtual {v0, v1}, Landroid/view/Window;->setWindowAnimations(I)V
 

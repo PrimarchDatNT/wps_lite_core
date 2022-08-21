@@ -163,7 +163,7 @@
     .line 1
     sget-object v0, Lcn/wps/moffice_eng/R$styleable;->PluginCardView:[I
 
-    sget v1, Lcom/resouce/module/ResSTYLE;->CardView.Light:I
+    sget v1, Lcom/resouce/module/ResSTYLE;->CardView_Light:I
 
     invoke-virtual {p1, p2, v0, p3, v1}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

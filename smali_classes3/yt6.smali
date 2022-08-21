@@ -36,7 +36,7 @@
 
     if-eqz v0, :cond_0
 
-    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
+    sget v0, Lcom/resouce/module/ResSTYLE;->Bottom_Panel:I
 
     goto :goto_0
 

@@ -91,7 +91,7 @@
         }
     .end annotation
 
-    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
+    sget v0, Lcom/resouce/module/ResSTYLE;->Bottom_Panel:I
 
     .line 1
     invoke-direct {p0, p1, v0}, Lhd3;-><init>(Landroid/content/Context;I)V

@@ -1926,7 +1926,7 @@
 
     if-nez v0, :cond_2
 
-    sget v0, Lcom/resouce/module/ResSTYLE;->Animations.push_left_in_right_out:I
+    sget v0, Lcom/resouce/module/ResSTYLE;->Animations_push_left_in_right_out:I
 
     .line 21
     iput v0, p1, Landroid/view/WindowManager$LayoutParams;->windowAnimations:I

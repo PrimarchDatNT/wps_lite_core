@@ -1995,7 +1995,7 @@
 
     if-eqz v4, :cond_c
 
-    sget v4, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel_No_Floating:I
+    sget v4, Lcom/resouce/module/ResSTYLE;->Bottom_Panel_No_Floating:I
 
     goto :goto_3
 

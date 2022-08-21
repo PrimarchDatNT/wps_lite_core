@@ -39,7 +39,7 @@
 
     move-result-object p1
 
-    sget v0, Lcom/resouce/module/ResSTYLE;->Animations.push_left_in_right_out:I
+    sget v0, Lcom/resouce/module/ResSTYLE;->Animations_push_left_in_right_out:I
 
     invoke-virtual {p1, v0}, Landroid/view/Window;->setWindowAnimations(I)V
 

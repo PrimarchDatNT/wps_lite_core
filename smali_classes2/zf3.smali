@@ -235,7 +235,7 @@
 
     iget-object v1, p0, Lzf3;->a:Landroid/app/Activity;
 
-    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel_No_Floating:I
+    sget v2, Lcom/resouce/module/ResSTYLE;->Bottom_Panel_No_Floating:I
 
     invoke-direct {v0, v1, v2}, Lvf3;-><init>(Landroid/content/Context;I)V
 

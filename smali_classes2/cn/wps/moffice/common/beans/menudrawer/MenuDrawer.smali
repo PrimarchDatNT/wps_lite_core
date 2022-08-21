@@ -2194,7 +2194,7 @@
 
     sget v2, Lcom/resouce/module/ResATTR;->menuDrawerStyle:I
 
-    sget v3, Lcom/resouce/module/ResSTYLE;->Widget.MenuDrawer:I
+    sget v3, Lcom/resouce/module/ResSTYLE;->Widget_MenuDrawer:I
 
     invoke-virtual {p1, p2, v1, v2, v3}, Landroid/content/Context;->obtainStyledAttributes(Landroid/util/AttributeSet;[III)Landroid/content/res/TypedArray;
 

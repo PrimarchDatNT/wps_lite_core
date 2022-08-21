@@ -729,7 +729,7 @@
 
     iget-object v1, p0, Ljia;->Y:Landroid/content/Context;
 
-    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
+    sget v2, Lcom/resouce/module/ResSTYLE;->Bottom_Panel:I
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;I)V
 
@@ -1013,7 +1013,7 @@
 
     iget-object v1, p0, Ljia;->Y:Landroid/content/Context;
 
-    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
+    sget v2, Lcom/resouce/module/ResSTYLE;->Bottom_Panel:I
 
     invoke-direct {v0, v1, v2}, Lhd3;-><init>(Landroid/content/Context;I)V
 

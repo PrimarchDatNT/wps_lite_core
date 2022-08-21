@@ -1,3 +1,0 @@
-.class public final synthetic Lcom/google/firebase/ml/naturallanguage/languageid/zzf;
-.super Ljava/lang/Object;
-.source "com.google.firebase:firebase-ml-natural-language@@22.0.1"

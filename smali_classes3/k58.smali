@@ -281,7 +281,7 @@
     :cond_0
     new-instance v0, Lhd3;
 
-    sget v1, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel_No_Floating:I
+    sget v1, Lcom/resouce/module/ResSTYLE;->Bottom_Panel_No_Floating:I
 
     invoke-direct {v0, p0, v1}, Lhd3;-><init>(Landroid/content/Context;I)V
 

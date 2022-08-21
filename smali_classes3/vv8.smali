@@ -24,7 +24,7 @@
     :cond_0
     new-instance v7, Lyv8;
 
-    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
+    sget v2, Lcom/resouce/module/ResSTYLE;->Bottom_Panel:I
 
     move-object v0, v7
 

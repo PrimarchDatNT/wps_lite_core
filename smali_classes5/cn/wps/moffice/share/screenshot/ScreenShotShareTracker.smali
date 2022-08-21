@@ -1067,7 +1067,7 @@
     .line 9
     invoke-virtual {v13, v12}, Landroid/widget/PopupWindow;->setFocusable(Z)V
 
-    sget v0, Lcom/resouce/module/ResSTYLE;->Animations.push_right_in_right_out:I
+    sget v0, Lcom/resouce/module/ResSTYLE;->Animations_push_right_in_right_out:I
 
     .line 10
     invoke-virtual {v13, v0}, Landroid/widget/PopupWindow;->setAnimationStyle(I)V

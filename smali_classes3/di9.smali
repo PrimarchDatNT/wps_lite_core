@@ -503,7 +503,7 @@
 
     const/4 v13, 0x1
 
-    sget v14, Lcom/resouce/module/ResSTYLE;->KMUITextAppearance.SubTitle:I
+    sget v14, Lcom/resouce/module/ResSTYLE;->KMUITextAppearance_SubTitle:I
 
     move-object v7, v2
 
@@ -1742,7 +1742,7 @@
 
     sget-object v3, Lgh8$b;->f1:Lgh8$b;
 
-    sget v7, Lcom/resouce/module/ResSTYLE;->KMUITextAppearance.SubTitle:I
+    sget v7, Lcom/resouce/module/ResSTYLE;->KMUITextAppearance_SubTitle:I
 
     move-object v0, v8
 

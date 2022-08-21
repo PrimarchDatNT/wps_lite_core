@@ -527,7 +527,7 @@
     .line 4
     sget-object v0, Lj0u;->l:Ljava/lang/String;
 
-    const-string v1, "Use a non-transparent color for the default color as it will be used to finish ripple animations."
+    const-string v1, "Use a non-transparent color for the default color as it will be used to finish ripple Animations_"
 
     invoke-static {v0, v1}, Landroid/util/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
 

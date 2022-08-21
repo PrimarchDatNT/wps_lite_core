@@ -55,7 +55,7 @@
     .line 3
     sget v1, Landroid/os/Build$VERSION;->SDK_INT:I
 
-    sget v2, Lcom/resouce/module/ResSTYLE;->Common.TextAppearance.Content.SubTitle.Small:I
+    sget v2, Lcom/resouce/module/ResSTYLE;->Common_TextAppearance_Content_SubTitle_Small:I
 
     const/16 v3, 0x17
 

@@ -133,7 +133,7 @@
 
     if-eqz v2, :cond_0
 
-    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
+    sget v2, Lcom/resouce/module/ResSTYLE;->Bottom_Panel:I
 
     goto :goto_0
 

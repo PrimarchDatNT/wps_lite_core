@@ -98,7 +98,7 @@
 .method public constructor <init>(Landroid/app/Activity;Landroid/view/ViewGroup;JLlxp;Llf4$d;ZZZ)V
     .locals 1
 
-    sget v0, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
+    sget v0, Lcom/resouce/module/ResSTYLE;->Bottom_Panel:I
 
     .line 3
     invoke-direct {p0, p1, v0}, Lcf4;-><init>(Landroid/content/Context;I)V

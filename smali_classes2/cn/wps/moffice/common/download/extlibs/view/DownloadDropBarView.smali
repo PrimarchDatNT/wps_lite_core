@@ -298,7 +298,7 @@
     .line 2
     iput v0, v6, Landroid/view/WindowManager$LayoutParams;->gravity:I
 
-    sget v0, Lcom/resouce/module/ResSTYLE;->Animations.PopDownMenu.Ribbon:I
+    sget v0, Lcom/resouce/module/ResSTYLE;->Animations_PopDownMenu_Ribbon:I
 
     .line 3
     iput v0, v6, Landroid/view/WindowManager$LayoutParams;->windowAnimations:I

@@ -497,7 +497,7 @@
 
     move-result v0
 
-    sget v2, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel:I
+    sget v2, Lcom/resouce/module/ResSTYLE;->Bottom_Panel:I
 
     if-eqz v0, :cond_2
 
@@ -521,7 +521,7 @@
 
     move-result-object v2
 
-    sget v3, Lcom/resouce/module/ResSTYLE;->Dialog_Fullscreen_StatusBar.Bottom_Panel_No_Floating:I
+    sget v3, Lcom/resouce/module/ResSTYLE;->Bottom_Panel_No_Floating:I
 
     invoke-direct {v0, v2, v3}, Lgk5;-><init>(Landroid/content/Context;I)V
 
