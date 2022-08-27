@@ -55,11 +55,11 @@
 
     iget-object v0, p0, Lcn/wps/moffice/writer/menu/tickbox/OverseaTickBoxView$b;->I:Lcn/wps/moffice/writer/menu/tickbox/OverseaTickBoxView;
 
-    iget-object v0, v0, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Ljo0;
+    iget-object v0, v0, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "writer_tickbox_bar_item"
 
-    invoke-interface {v0, v1}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v0
 
@@ -79,11 +79,11 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/writer/menu/tickbox/OverseaTickBoxView$b;->I:Lcn/wps/moffice/writer/menu/tickbox/OverseaTickBoxView;
 
-    iget-object v0, v0, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Ljo0;
+    iget-object v0, v0, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "tickbox_layout"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -96,11 +96,11 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/writer/menu/tickbox/OverseaTickBoxView$b;->I:Lcn/wps/moffice/writer/menu/tickbox/OverseaTickBoxView;
 
-    iget-object v0, v0, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Ljo0;
+    iget-object v0, v0, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "tickbox_img"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -115,11 +115,11 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/writer/menu/tickbox/OverseaTickBoxView$b;->I:Lcn/wps/moffice/writer/menu/tickbox/OverseaTickBoxView;
 
-    iget-object v0, v0, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Ljo0;
+    iget-object v0, v0, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "tickbox_text"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -176,11 +176,11 @@
 
     iget-object v2, p0, Lcn/wps/moffice/writer/menu/tickbox/OverseaTickBoxView$b;->I:Lcn/wps/moffice/writer/menu/tickbox/OverseaTickBoxView;
 
-    iget-object v2, v2, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Ljo0;
+    iget-object v2, v2, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Lcom/resouce/module/IResourceManager;
 
     const-string v3, "public_icon_tickbox_checked"
 
-    invoke-interface {v2, v3}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v2
 
@@ -194,11 +194,11 @@
 
     iget-object v2, p0, Lcn/wps/moffice/writer/menu/tickbox/OverseaTickBoxView$b;->I:Lcn/wps/moffice/writer/menu/tickbox/OverseaTickBoxView;
 
-    iget-object v2, v2, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Ljo0;
+    iget-object v2, v2, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Lcom/resouce/module/IResourceManager;
 
     const-string v3, "public_icon_tickbox"
 
-    invoke-interface {v2, v3}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v2
 

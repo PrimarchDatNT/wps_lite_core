@@ -168,13 +168,13 @@
 
     .line 8
     :cond_1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p0
 
     const-string v0, "chart_defaultChartTitle_bmw"
 
-    invoke-interface {p0, v0}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p0, v0}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -303,13 +303,13 @@
     invoke-direct {v0}, Ljava/lang/StringBuffer;-><init>()V
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
     const-string v2, "public_chart_series"
 
-    invoke-interface {v1, v2}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -482,13 +482,13 @@
 
     .line 2
     :cond_0
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p0
 
     const-string v0, "chart_power_bmw"
 
-    invoke-interface {p0, v0}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p0, v0}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -509,11 +509,11 @@
     if-ne p0, v2, :cond_2
 
     .line 4
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p0
 
-    invoke-interface {p0, v1}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p0, v1}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -521,13 +521,13 @@
 
     .line 5
     :cond_2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p0
 
     const-string v0, "chart_polynomaial_bmw"
 
-    invoke-interface {p0, v0}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p0, v0}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -535,13 +535,13 @@
 
     .line 6
     :cond_3
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p0
 
     const-string v0, "chart_moving_bmw"
 
-    invoke-interface {p0, v0}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p0, v0}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -549,13 +549,13 @@
 
     .line 7
     :cond_4
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p0
 
     const-string v0, "chart_logarithmic_bmw"
 
-    invoke-interface {p0, v0}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p0, v0}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -563,11 +563,11 @@
 
     .line 8
     :cond_5
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p0
 
-    invoke-interface {p0, v1}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p0, v1}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 
@@ -575,13 +575,13 @@
 
     .line 9
     :cond_6
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p0
 
     const-string v0, "chart_exponential_bmw"
 
-    invoke-interface {p0, v0}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p0, v0}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p0
 

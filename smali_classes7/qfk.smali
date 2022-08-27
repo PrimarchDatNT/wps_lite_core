@@ -502,7 +502,7 @@
     if-nez v0, :cond_1
 
     .line 6
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -511,7 +511,7 @@
 
     const-string v4, "public_number_tips_arrow"
 
-    invoke-interface {v0, v4}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v4}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v4
 
@@ -526,7 +526,7 @@
 
     const-string v4, "public_number_tips_tip"
 
-    invoke-interface {v0, v4}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v4}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -803,7 +803,7 @@
     move-result-object v0
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
@@ -823,7 +823,7 @@
 
     const-string v2, "public_number_tips_layout"
 
-    invoke-interface {v1, v2}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v2
 
@@ -845,7 +845,7 @@
 
     const-string v2, "public_pad_number_tips_layout"
 
-    invoke-interface {v1, v2}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v2
 
@@ -863,7 +863,7 @@
 
     const-string v2, "public_number_tips_num"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 

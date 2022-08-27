@@ -35,7 +35,7 @@
     sput-object v0, Ltkk;->i:Landroid/graphics/Rect;
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
@@ -53,7 +53,7 @@
 
     const-string v4, "writer_balloon_btn_width"
 
-    invoke-interface {v1, v4}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v1, v4}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v4
 
@@ -68,7 +68,7 @@
 
     const-string v4, "writer_balloon_btn_height"
 
-    invoke-interface {v1, v4}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v1, v4}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v1
 
@@ -211,14 +211,14 @@
     if-nez v1, :cond_0
 
     .line 4
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
     const-string v2, "writer_balloon_btn_audio"
 
     .line 5
-    invoke-interface {v1, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v1
 
@@ -271,14 +271,14 @@
     if-nez v1, :cond_0
 
     .line 4
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
     const-string v2, "writer_balloon_btn_comment"
 
     .line 5
-    invoke-interface {v1, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v1
 
@@ -331,14 +331,14 @@
     if-nez v1, :cond_0
 
     .line 4
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
     const-string v2, "writer_balloon_btn_mixtrue"
 
     .line 5
-    invoke-interface {v1, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v1
 

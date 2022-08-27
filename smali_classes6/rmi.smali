@@ -73,23 +73,23 @@
     iput v0, p0, Lrmi;->f:F
 
     .line 4
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     .line 5
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
     const-string v2, "phone_writer_decorate_color"
 
-    invoke-interface {v1, v2}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result v1
 
     .line 6
-    invoke-interface {v0, v1}, Ljo0;->l(I)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->l(I)I
 
     move-result v0
 
@@ -99,23 +99,23 @@
     iput v0, p0, Lrmi;->p:I
 
     .line 8
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     .line 9
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
     const-string v2, "phone_writer_decorate_pressed_color"
 
-    invoke-interface {v1, v2}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result v1
 
     .line 10
-    invoke-interface {v0, v1}, Ljo0;->l(I)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->l(I)I
 
     move-result v0
 
@@ -455,13 +455,13 @@
     invoke-virtual {p0, p1}, Lrmi;->g(Z)V
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
     const-string v0, "writer_headerfooter_to_footer"
 
-    invoke-interface {p1, v0}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, v0}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -479,13 +479,13 @@
     invoke-virtual {p0, p1}, Lrmi;->g(Z)V
 
     .line 5
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
     const-string v0, "writer_headerfooter_to_header"
 
-    invoke-interface {p1, v0}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, v0}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 

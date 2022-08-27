@@ -191,14 +191,14 @@
     invoke-virtual {p0, p1}, Landroid/widget/HorizontalScrollView;->setHorizontalScrollBarEnabled(Z)V
 
     .line 9
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
     const-string v0, "public_edittoolbar_foldmenu_bg"
 
     .line 10
-    invoke-interface {p1, v0}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {p1, v0}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result p1
 

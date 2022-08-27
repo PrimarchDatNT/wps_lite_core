@@ -540,13 +540,13 @@
     move-result-object p1
 
     .line 49
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
     const-string p3, "viewfinder_mask"
 
-    invoke-interface {p2, p3}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {p2, p3}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result p2
 
@@ -557,13 +557,13 @@
     iput p2, p0, Lcn/wps/moffice/extlibs/qrcode/view/ViewfinderView;->maskColor:I
 
     .line 50
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
     const-string p3, "result_view"
 
-    invoke-interface {p2, p3}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {p2, p3}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result p2
 
@@ -574,13 +574,13 @@
     iput p2, p0, Lcn/wps/moffice/extlibs/qrcode/view/ViewfinderView;->resultColor:I
 
     .line 51
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
     const-string p3, "possible_result_points"
 
-    invoke-interface {p2, p3}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {p2, p3}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result p2
 
@@ -619,11 +619,11 @@
 
     move-result-object p2
 
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p3
 
-    invoke-interface {p3, p1}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {p3, p1}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result p1
 
@@ -639,13 +639,13 @@
 
     move-result-object p1
 
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
     const-string p3, "public_qrcode_scan_course_tips"
 
-    invoke-interface {p2, p3}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {p2, p3}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result p2
 
@@ -909,14 +909,14 @@
 
     move-result-object v1
 
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v2
 
     const-string v3, "public_qrcode_scan_helper_tips"
 
     .line 2
-    invoke-interface {v2, v3}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v2
 
@@ -2095,13 +2095,13 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
     const-string v4, "qrcode_scan_line"
 
-    invoke-interface {v1, v4}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v1, v4}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v1
 

@@ -45,14 +45,14 @@
     iput-object p2, p0, Ltti;->a:Lzri;
 
     .line 6
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
     const-string v0, "writer_gestureview_tips"
 
     .line 7
-    invoke-interface {p2, v0}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p2, v0}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result p2
 

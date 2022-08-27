@@ -32,14 +32,14 @@
     invoke-direct {p0, p1, p2}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 3
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
     const-string p2, "comp_press_pul_up"
 
     .line 4
-    invoke-interface {p1, p2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {p1, p2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result p1
 
@@ -73,14 +73,14 @@
     invoke-virtual {p0, v0}, Lcn/wps/moffice/common/beans/phone/contextview/OverseaContextOpBaseBarArrows;->setRollNext(Z)V
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "comp_press_drop_down"
 
     .line 3
-    invoke-interface {v0, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
@@ -98,14 +98,14 @@
     invoke-virtual {p0, v0}, Lcn/wps/moffice/common/beans/phone/contextview/OverseaContextOpBaseBarArrows;->setRollNext(Z)V
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "comp_press_pul_up"
 
     .line 3
-    invoke-interface {v0, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 

@@ -161,21 +161,21 @@
     .locals 9
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "CardView"
 
     .line 2
-    invoke-interface {v0, v1}, Ljo0;->c(Ljava/lang/String;)[I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->c(Ljava/lang/String;)[I
 
     move-result-object v1
 
     const-string v2, "CardView_Light"
 
     .line 3
-    invoke-interface {v0, v2}, Ljo0;->k(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->k(Ljava/lang/String;)I
 
     move-result v2
 
@@ -187,7 +187,7 @@
     const-string p3, "CardView_cardBackgroundColor"
 
     .line 5
-    invoke-interface {v0, p3}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, p3}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p3
 
@@ -200,7 +200,7 @@
     const-string p3, "CardView_cardCornerRadius"
 
     .line 6
-    invoke-interface {v0, p3}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, p3}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p3
 
@@ -213,7 +213,7 @@
     const-string p3, "CardView_cardElevation"
 
     .line 7
-    invoke-interface {v0, p3}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, p3}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p3
 
@@ -224,7 +224,7 @@
     const-string p3, "CardView_cardMaxElevation"
 
     .line 8
-    invoke-interface {v0, p3}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, p3}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p3
 
@@ -235,7 +235,7 @@
     const-string v2, "CardView_cardUseCompatPadding"
 
     .line 9
-    invoke-interface {v0, v2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result v2
 
@@ -248,7 +248,7 @@
     const-string v2, "CardView_cardPreventCornerOverlap"
 
     .line 10
-    invoke-interface {v0, v2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result v2
 
@@ -263,7 +263,7 @@
     const-string v2, "CardView_contentPadding"
 
     .line 11
-    invoke-interface {v0, v2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result v2
 
@@ -276,7 +276,7 @@
 
     const-string v3, "CardView_contentPaddingLeft"
 
-    invoke-interface {v0, v3}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, v3}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result v3
 
@@ -291,7 +291,7 @@
 
     const-string v3, "CardView_contentPaddingTop"
 
-    invoke-interface {v0, v3}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, v3}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result v3
 
@@ -306,7 +306,7 @@
 
     const-string v3, "CardView_contentPaddingRight"
 
-    invoke-interface {v0, v3}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, v3}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result v3
 
@@ -321,7 +321,7 @@
 
     const-string v3, "CardView_contentPaddingBottom"
 
-    invoke-interface {v0, v3}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, v3}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result v0
 

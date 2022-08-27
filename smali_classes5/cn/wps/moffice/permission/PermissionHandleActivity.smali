@@ -351,18 +351,18 @@
     invoke-virtual {v0, p2}, Lhd3;->setMessage(Ljava/lang/CharSequence;)Lhd3;
 
     .line 5
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
     const-string p2, "secondaryColor"
 
     .line 6
-    invoke-interface {p1, p2}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {p1, p2}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result p2
 
-    invoke-interface {p1, p2}, Ljo0;->l(I)I
+    invoke-interface {p1, p2}, Lcom/resouce/module/IResourceManager;->l(I)I
 
     move-result p1
 

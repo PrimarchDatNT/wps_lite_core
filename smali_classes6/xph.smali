@@ -35,7 +35,7 @@
     invoke-direct {p0, p1, v0, v1}, Landroid/widget/PopupWindow;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
@@ -46,7 +46,7 @@
 
     const-string v3, "phone_public_menu_bg_normal"
 
-    invoke-interface {v1, v3}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v1, v3}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v3
 
@@ -83,7 +83,7 @@
     const-string v3, "writer_popballoon_audio_comment_item_pop_menu"
 
     .line 8
-    invoke-interface {v1, v3}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v1, v3}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v3
 
@@ -96,7 +96,7 @@
     const-string v0, "edit_text"
 
     .line 9
-    invoke-interface {v1, v0}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v0}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -111,7 +111,7 @@
 
     const-string v0, "convert_to_text"
 
-    invoke-interface {v1, v0}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v0}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -126,7 +126,7 @@
 
     const-string v0, "del"
 
-    invoke-interface {v1, v0}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v0}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 

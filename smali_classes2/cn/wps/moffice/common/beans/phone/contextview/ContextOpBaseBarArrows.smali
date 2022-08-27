@@ -31,14 +31,14 @@
     invoke-direct {p0, p1, p2}, Landroid/widget/ImageView;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 3
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
     const-string p2, "phone_public_context_right_arrow_improve"
 
     .line 4
-    invoke-interface {p1, p2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {p1, p2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result p2
 
@@ -47,11 +47,11 @@
     const-string p2, "normalIconColor"
 
     .line 5
-    invoke-interface {p1, p2}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {p1, p2}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result p2
 
-    invoke-interface {p1, p2}, Ljo0;->l(I)I
+    invoke-interface {p1, p2}, Lcom/resouce/module/IResourceManager;->l(I)I
 
     move-result p1
 
@@ -80,27 +80,27 @@
     invoke-virtual {p0, v0}, Lcn/wps/moffice/common/beans/phone/contextview/ContextOpBaseBarArrows;->setRollNext(Z)V
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "phone_public_context_left_arrow_improve"
 
     .line 3
-    invoke-interface {v0, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 4
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "reader_public_previous"
 
-    invoke-interface {v0, v1}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -118,27 +118,27 @@
     invoke-virtual {p0, v0}, Lcn/wps/moffice/common/beans/phone/contextview/ContextOpBaseBarArrows;->setRollNext(Z)V
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "phone_public_context_right_arrow_improve"
 
     .line 3
-    invoke-interface {v0, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
     invoke-virtual {p0, v0}, Landroid/widget/ImageView;->setImageResource(I)V
 
     .line 4
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "reader_public_next"
 
-    invoke-interface {v0, v1}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

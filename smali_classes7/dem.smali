@@ -21,14 +21,14 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "et_pivot_table_total"
 
     .line 3
-    invoke-interface {v0, v1}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -37,7 +37,7 @@
     const-string v1, "et_pivot_table_grand_total"
 
     .line 4
-    invoke-interface {v0, v1}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -46,7 +46,7 @@
     const-string v1, "et_pivot_table_blank"
 
     .line 5
-    invoke-interface {v0, v1}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -66,7 +66,7 @@
 
     const-string v2, "et_pivot_table_calculation"
 
-    invoke-interface {v0, v2}, Ljo0;->j(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->j(Ljava/lang/String;)I
 
     move-result v0
 

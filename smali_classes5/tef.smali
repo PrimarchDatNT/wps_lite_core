@@ -86,13 +86,13 @@
 
     .line 4
     :cond_0
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     sget v1, Lcom/resouce/module/ResSTRING;->public_long_pic_share_default_introduce:I
 
-    invoke-interface {v0, v1}, Ljo0;->getString(I)Ljava/lang/String;
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 

@@ -65,7 +65,7 @@
 
 .field public k0:Landroid/widget/RelativeLayout;
 
-.field public l0:Ljo0;
+.field public l0:Lcom/resouce/module/IResourceManager;
 
 .field public m0:Landroid/widget/FrameLayout;
 
@@ -175,14 +175,14 @@
     move-result-object p1
 
     .line 12
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
-    iput-object v1, p0, Ldpk;->l0:Ljo0;
+    iput-object v1, p0, Ldpk;->l0:Lcom/resouce/module/IResourceManager;
 
     .line 13
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
@@ -194,7 +194,7 @@
     const-string v3, "writer_phone_showobject"
 
     .line 15
-    invoke-interface {v1, v3}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v1, v3}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v3
 
@@ -210,7 +210,7 @@
     const-string v3, "writer_object_scrollview"
 
     .line 17
-    invoke-interface {v1, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v3
 
@@ -230,7 +230,7 @@
 
     const-string v3, "writer_object_view"
 
-    invoke-interface {v1, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v3
 
@@ -252,7 +252,7 @@
 
     const-string v3, "writer_night_view"
 
-    invoke-interface {v1, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v3
 
@@ -267,7 +267,7 @@
 
     const-string v3, "savePic"
 
-    invoke-interface {v1, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v3
 
@@ -284,7 +284,7 @@
 
     const-string v3, "saveLayout"
 
-    invoke-interface {v1, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v3
 
@@ -301,7 +301,7 @@
 
     const-string v3, "writer_circle_progress_cycle_layout"
 
-    invoke-interface {v1, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v3
 
@@ -318,7 +318,7 @@
 
     const-string v3, "writer_circle_progress_cycle"
 
-    invoke-interface {v1, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -424,11 +424,11 @@
     return-object p0
 .end method
 
-.method public static synthetic g(Ldpk;)Ljo0;
+.method public static synthetic g(Ldpk;)Lcom/resouce/module/IResourceManager;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Ldpk;->l0:Ljo0;
+    iget-object p0, p0, Ldpk;->l0:Lcom/resouce/module/IResourceManager;
 
     return-object p0
 .end method
@@ -2148,7 +2148,7 @@
     if-nez v0, :cond_0
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -2158,7 +2158,7 @@
     const-string v2, "Theme_NoTitleBar_TransparentDialog_No_Animation"
 
     .line 4
-    invoke-interface {v0, v2}, Ljo0;->k(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->k(Ljava/lang/String;)I
 
     move-result v0
 

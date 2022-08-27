@@ -38,14 +38,14 @@
     invoke-direct {p0, p2, v0}, Landroid/app/Dialog;-><init>(Landroid/content/Context;I)V
 
     .line 3
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
     const-string v0, "tv_picture_guide_view"
 
     .line 4
-    invoke-interface {p2, v0}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {p2, v0}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v0
 
@@ -59,7 +59,7 @@
     const-string v1, "picture_guide_root"
 
     .line 6
-    invoke-interface {p2, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p2, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -85,7 +85,7 @@
     const-string v0, "picture_rect"
 
     .line 12
-    invoke-interface {p2, v0}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p2, v0}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -113,7 +113,7 @@
     .line 14
     new-instance v0, Lcn/wps/shareplay/pictureviewer/PictureViewerGuide$b$b;
 
-    invoke-direct {v0, p0, p1, p2}, Lcn/wps/shareplay/pictureviewer/PictureViewerGuide$b$b;-><init>(Lcn/wps/shareplay/pictureviewer/PictureViewerGuide$b;Lcn/wps/shareplay/pictureviewer/PictureViewerGuide;Ljo0;)V
+    invoke-direct {v0, p0, p1, p2}, Lcn/wps/shareplay/pictureviewer/PictureViewerGuide$b$b;-><init>(Lcn/wps/shareplay/pictureviewer/PictureViewerGuide$b;Lcn/wps/shareplay/pictureviewer/PictureViewerGuide;Lcom/resouce/module/IResourceManager;)V
 
     invoke-virtual {p0, v0}, Landroid/app/Dialog;->setOnShowListener(Landroid/content/DialogInterface$OnShowListener;)V
 

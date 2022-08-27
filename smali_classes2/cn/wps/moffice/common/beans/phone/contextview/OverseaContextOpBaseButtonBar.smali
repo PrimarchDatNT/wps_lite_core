@@ -71,7 +71,7 @@
     .locals 6
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/common/beans/phone/contextview/OverseaContextOpBaseButtonBar;->a0:Ljava/util/List;
@@ -267,7 +267,7 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -300,7 +300,7 @@
 
     const-string v1, "oversea_phone_public_op_base_buttonbar"
 
-    invoke-interface {v0, v1}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v1
 
@@ -315,7 +315,7 @@
     const-string v1, "base_buttonbar_scrollView"
 
     .line 5
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -332,7 +332,7 @@
 
     const-string v1, "base_buttonbar_layout"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 

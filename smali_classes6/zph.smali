@@ -53,14 +53,14 @@
     move-result-object p1
 
     .line 6
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
     const-string v0, "writer_audio_comment_realtime_record_layout"
 
     .line 7
-    invoke-interface {p2, v0}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {p2, v0}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v0
 
@@ -75,7 +75,7 @@
     const-string v0, "color_flag"
 
     .line 8
-    invoke-interface {p2, v0}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p2, v0}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -90,7 +90,7 @@
 
     const-string v0, "author_icon"
 
-    invoke-interface {p2, v0}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p2, v0}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -107,7 +107,7 @@
 
     const-string v0, "audio_comment_user_name"
 
-    invoke-interface {p2, v0}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p2, v0}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -124,7 +124,7 @@
 
     const-string v0, "audio_comment_text"
 
-    invoke-interface {p2, v0}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p2, v0}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -141,7 +141,7 @@
 
     const-string v0, "audio_comment_text_iatloading"
 
-    invoke-interface {p2, v0}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p2, v0}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -158,7 +158,7 @@
 
     const-string v0, "audio_icon"
 
-    invoke-interface {p2, v0}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p2, v0}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result p2
 
@@ -296,7 +296,7 @@
     move-result-object p3
 
     .line 6
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p4
 
@@ -305,7 +305,7 @@
 
     const-string v1, "home_mypurchasing_drawer_icon_avatar"
 
-    invoke-interface {p4, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {p4, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result p4
 

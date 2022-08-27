@@ -110,7 +110,7 @@
 
     .line 7
     :cond_2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -131,11 +131,11 @@
     const-string v3, "v10_phone_public_title_bar_height"
 
     .line 10
-    invoke-interface {v0, v3}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v3}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v3
 
-    invoke-interface {v0, v3}, Ljo0;->b(I)I
+    invoke-interface {v0, v3}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result v3
 
@@ -151,11 +151,11 @@
     const-string v4, "writer_audio_comment_popup_window_padding_top"
 
     .line 12
-    invoke-interface {v0, v4}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v4}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v4
 
-    invoke-interface {v0, v4}, Ljo0;->b(I)I
+    invoke-interface {v0, v4}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result v0
 
@@ -337,14 +337,14 @@
     move-result-object v1
 
     .line 3
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v2
 
     const-string v3, "writer_audio_comment_realtime_record_layout"
 
     .line 4
-    invoke-interface {v2, v3}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v3
 
@@ -359,7 +359,7 @@
     const-string v3, "author_icon"
 
     .line 5
-    invoke-interface {v2, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v3
 
@@ -376,7 +376,7 @@
 
     const-string v3, "audio_comment_user_name"
 
-    invoke-interface {v2, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v3
 
@@ -393,7 +393,7 @@
 
     const-string v3, "audio_comment_text"
 
-    invoke-interface {v2, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v3
 
@@ -410,7 +410,7 @@
 
     const-string v3, "audio_comment_text_iatloading"
 
-    invoke-interface {v2, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v3
 
@@ -427,7 +427,7 @@
 
     const-string v3, "audio_icon"
 
-    invoke-interface {v2, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v3
 
@@ -444,7 +444,7 @@
 
     const-string v3, "writer_popballoon_item_custom_divider"
 
-    invoke-interface {v2, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v3
 
@@ -478,7 +478,7 @@
 
     const-string v1, "phone_public_audio_comment_pop_track"
 
-    invoke-interface {v2, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v2, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v1
 
@@ -515,11 +515,11 @@
     const-string v4, "writer_audio_comment_popup_window_padding_left"
 
     .line 19
-    invoke-interface {v2, v4}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v2, v4}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v4
 
-    invoke-interface {v2, v4}, Ljo0;->b(I)I
+    invoke-interface {v2, v4}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result v4
 
@@ -528,11 +528,11 @@
     const-string v4, "writer_audio_comment_popup_window_padding_right"
 
     .line 20
-    invoke-interface {v2, v4}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v2, v4}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v4
 
-    invoke-interface {v2, v4}, Ljo0;->b(I)I
+    invoke-interface {v2, v4}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result v2
 
@@ -597,7 +597,7 @@
 
     .line 3
     :cond_0
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -613,11 +613,11 @@
     const-string v3, "writer_audio_comment_popup_window_padding_left"
 
     .line 5
-    invoke-interface {v0, v3}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v3}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v3
 
-    invoke-interface {v0, v3}, Ljo0;->b(I)I
+    invoke-interface {v0, v3}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result v3
 
@@ -626,11 +626,11 @@
     const-string v3, "writer_audio_comment_popup_window_padding_right"
 
     .line 6
-    invoke-interface {v0, v3}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v3}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v3
 
-    invoke-interface {v0, v3}, Ljo0;->b(I)I
+    invoke-interface {v0, v3}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result v0
 
@@ -674,13 +674,13 @@
     .line 12
     iget-object v1, p0, Lvph;->a:Landroid/view/View;
 
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v2
 
     const-string v3, "color_flag"
 
-    invoke-interface {v2, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v2
 

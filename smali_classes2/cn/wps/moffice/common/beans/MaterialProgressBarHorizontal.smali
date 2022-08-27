@@ -409,18 +409,18 @@
     invoke-virtual {p0, p2}, Landroid/view/View;->setMinimumHeight(I)V
 
     .line 3
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
     const-string p3, "progressTrackColor"
 
     .line 4
-    invoke-interface {p2, p3}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {p2, p3}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result p3
 
-    invoke-interface {p2, p3}, Ljo0;->l(I)I
+    invoke-interface {p2, p3}, Lcom/resouce/module/IResourceManager;->l(I)I
 
     move-result p3
 
@@ -455,11 +455,11 @@
     const-string p3, "secondaryColor"
 
     .line 7
-    invoke-interface {p2, p3}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {p2, p3}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result p3
 
-    invoke-interface {p2, p3}, Ljo0;->l(I)I
+    invoke-interface {p2, p3}, Lcom/resouce/module/IResourceManager;->l(I)I
 
     move-result p2
 

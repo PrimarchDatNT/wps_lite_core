@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field public a:Ljo0;
+.field public a:Lcom/resouce/module/IResourceManager;
 
 .field public final synthetic b:Z
 
@@ -37,11 +37,11 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
-    iput-object p1, p0, Lvfk$a;->a:Ljo0;
+    iput-object p1, p0, Lvfk$a;->a:Lcom/resouce/module/IResourceManager;
 
     return-void
 .end method
@@ -73,11 +73,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lvfk$a;->a:Ljo0;
+    iget-object v0, p0, Lvfk$a;->a:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "writer_comment_modify_username_tip"
 
-    invoke-interface {v0, v1}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v0
 

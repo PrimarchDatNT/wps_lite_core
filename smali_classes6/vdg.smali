@@ -138,7 +138,7 @@
     iput-object v0, p0, Lvdg;->r:Landroid/view/ViewTreeObserver$OnGlobalLayoutListener;
 
     .line 13
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -150,7 +150,7 @@
     const-string v2, "et_showpicture"
 
     .line 15
-    invoke-interface {v0, v2}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v2
 
@@ -164,7 +164,7 @@
     const-string v2, "et_showpicture_image"
 
     .line 17
-    invoke-interface {v0, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v2
 
@@ -246,7 +246,7 @@
     const-string v3, "Dialog_Fullscreen_StatusBar"
 
     .line 26
-    invoke-interface {v0, v3}, Ljo0;->k(Ljava/lang/String;)I
+    invoke-interface {v0, v3}, Lcom/resouce/module/IResourceManager;->k(Ljava/lang/String;)I
 
     move-result v0
 

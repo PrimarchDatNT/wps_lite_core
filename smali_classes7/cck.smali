@@ -312,13 +312,13 @@
     iput-object v0, p0, Lcck;->e0:Landroid/widget/ImageView;
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
     const-string v2, "phone_public_choosemenu_close_selector"
 
-    invoke-interface {v1, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v1
 
@@ -424,7 +424,7 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -435,7 +435,7 @@
 
     const-string v1, "phone_public_choosemenu_close_selector"
 
-    invoke-interface {v0, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v1
 
@@ -446,7 +446,7 @@
 
     const-string v1, "reader_public_close"
 
-    invoke-interface {v0, v1}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -463,7 +463,7 @@
 
     const-string v1, "phone_public_choose_paste"
 
-    invoke-interface {v0, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v1
 
@@ -474,7 +474,7 @@
 
     const-string v1, "reader_writer_paste_options"
 
-    invoke-interface {v0, v1}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 

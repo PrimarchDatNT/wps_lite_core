@@ -23,7 +23,7 @@
     invoke-direct {p0, p1, p2}, Lmdk;-><init>(Lzri;Lgdk$a;)V
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
@@ -38,7 +38,7 @@
 
     const-string v1, "public_battery_height"
 
-    invoke-interface {p2, v1}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {p2, v1}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result p2
 
@@ -1154,13 +1154,13 @@
     if-eqz p1, :cond_0
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
     const-string v0, "phone_scroll_to_first_page"
 
-    invoke-interface {p1, v0}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, v0}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1168,13 +1168,13 @@
 
     .line 2
     :cond_0
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
     const-string v0, "phone_scroll_to_last_page"
 
-    invoke-interface {p1, v0}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, v0}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 

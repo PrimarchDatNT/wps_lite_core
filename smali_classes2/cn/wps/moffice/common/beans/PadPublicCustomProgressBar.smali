@@ -37,7 +37,7 @@
 
 .field public h0:Ljava/lang/Runnable;
 
-.field public i0:Ljo0;
+.field public i0:Lcom/resouce/module/IResourceManager;
 
 
 # direct methods
@@ -117,11 +117,11 @@
     invoke-virtual {p0, p1}, Landroid/widget/FrameLayout;->setVisibility(I)V
 
     .line 13
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->i0:Ljo0;
+    iput-object p1, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->i0:Lcom/resouce/module/IResourceManager;
 
     return-void
 .end method
@@ -212,12 +212,12 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->T:Landroid/widget/ImageView;
 
-    iget-object v1, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->i0:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->i0:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "phone_public_progressbar_progress"
 
     .line 6
-    invoke-interface {v1, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v1
 
@@ -230,17 +230,17 @@
     iput v0, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->d0:I
 
     .line 9
-    iget-object v0, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->i0:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->i0:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "public_custom_progressbar_image_height"
 
     .line 10
-    invoke-interface {v0, v1}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v1
 
     .line 11
-    invoke-interface {v0, v1}, Ljo0;->b(I)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result v0
 
@@ -304,11 +304,11 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->c0:Landroid/view/LayoutInflater;
 
-    iget-object v1, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->i0:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->i0:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "public_custom_progressbar"
 
-    invoke-interface {v1, v2}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v1
 
@@ -317,12 +317,12 @@
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 2
-    iget-object v0, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->i0:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->i0:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "progress_relativeLayout"
 
     .line 3
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -336,11 +336,11 @@
     iput-object v0, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->U:Landroid/view/ViewGroup;
 
     .line 5
-    iget-object v0, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->i0:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->i0:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "progress_percent"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -353,11 +353,11 @@
     iput-object v0, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->W:Landroid/widget/TextView;
 
     .line 6
-    iget-object v0, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->i0:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->i0:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "progress_info"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -599,9 +599,9 @@
     if-eqz v1, :cond_8
 
     .line 4
-    iget-object v1, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->i0:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->i0:Lcom/resouce/module/IResourceManager;
 
-    invoke-interface {v1, v4}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v1, v4}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v1
 
@@ -614,13 +614,13 @@
     if-eqz v0, :cond_9
 
     .line 6
-    iget-object v0, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->i0:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/beans/PadPublicCustomProgressBar;->i0:Lcom/resouce/module/IResourceManager;
 
-    invoke-interface {v0, v2}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result v1
 
-    invoke-interface {v0, v1}, Ljo0;->l(I)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->l(I)I
 
     move-result v0
 

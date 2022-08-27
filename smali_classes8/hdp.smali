@@ -170,7 +170,7 @@
     if-nez v0, :cond_2
 
     .line 4
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
@@ -181,7 +181,7 @@
 
     move-result-object p1
 
-    invoke-interface {v1, p0}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v1, p0}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
@@ -336,7 +336,7 @@
     sput-boolean v0, Lhdp;->g:Z
 
     .line 5
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 

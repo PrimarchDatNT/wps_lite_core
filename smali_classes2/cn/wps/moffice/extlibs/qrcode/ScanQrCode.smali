@@ -68,7 +68,7 @@
 
 .field private mRecommendBannerView:Landroid/view/View;
 
-.field private mRm:Ljo0;
+.field private mRm:Lcom/resouce/module/IResourceManager;
 
 .field private mScaleGestureDetector:Landroid/view/ScaleGestureDetector;
 
@@ -197,11 +197,11 @@
     iput-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mCameraManager:Lcn/wps/moffice/extlibs/qrcode/camera/CameraManager;
 
     .line 13
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iput-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     .line 14
     iget-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->context:Landroid/app/Activity;
@@ -210,11 +210,11 @@
 
     move-result-object p1
 
-    iget-object v2, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v2, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v3, "qrcode_capture"
 
-    invoke-interface {v2, v3}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v2
 
@@ -240,11 +240,11 @@
     .line 16
     iget-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mQRView:Landroid/view/View;
 
-    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "preview_view"
 
-    invoke-interface {v0, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -264,11 +264,11 @@
     .line 18
     iget-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mQRView:Landroid/view/View;
 
-    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "viewfinder_view"
 
-    invoke-interface {v0, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -295,11 +295,11 @@
     .line 21
     iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mQRView:Landroid/view/View;
 
-    iget-object v2, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v2, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v3, "blackground_view"
 
-    invoke-interface {v2, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v2
 
@@ -334,11 +334,11 @@
     .line 24
     iget-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mQRView:Landroid/view/View;
 
-    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "viewfinder_back"
 
-    invoke-interface {v0, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -358,11 +358,11 @@
     .line 26
     iget-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mQRView:Landroid/view/View;
 
-    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "viewfinder_select_image"
 
-    invoke-interface {v0, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -380,11 +380,11 @@
     .line 28
     iget-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mQRView:Landroid/view/View;
 
-    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "layout_recommend_banner"
 
-    invoke-interface {v0, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -402,11 +402,11 @@
     .line 30
     iget-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mQRView:Landroid/view/View;
 
-    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "close_recommend_banner"
 
-    invoke-interface {v0, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -430,11 +430,11 @@
     .line 34
     iget-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mQRView:Landroid/view/View;
 
-    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "viewfinder_mask"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -445,15 +445,15 @@
     iput-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mTitleBar:Landroid/view/View;
 
     .line 35
-    iget-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v0, "viewfinder_header_mask"
 
-    invoke-interface {p1, v0}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {p1, v0}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result v0
 
-    invoke-interface {p1, v0}, Ljo0;->l(I)I
+    invoke-interface {p1, v0}, Lcom/resouce/module/IResourceManager;->l(I)I
 
     move-result p1
 
@@ -478,11 +478,11 @@
     return-object p0
 .end method
 
-.method public static synthetic access$1000(Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;)Ljo0;
+.method public static synthetic access$1000(Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;)Lcom/resouce/module/IResourceManager;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object p0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     return-object p0
 .end method
@@ -901,11 +901,11 @@
     :cond_1
     iget-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->viewfinderView:Lcn/wps/moffice/extlibs/qrcode/view/ViewfinderView;
 
-    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "public_tv_meeting_scanf_phone_title"
 
-    invoke-interface {v0, v2}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v0
 
@@ -929,11 +929,11 @@
     :cond_2
     iget-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->viewfinderView:Lcn/wps/moffice/extlibs/qrcode/view/ViewfinderView;
 
-    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     sget-object v1, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mScanTipsId:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v0
 
@@ -945,11 +945,11 @@
     :cond_3
     iget-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->viewfinderView:Lcn/wps/moffice/extlibs/qrcode/view/ViewfinderView;
 
-    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "ppt_tv_project_scan_qrcode"
 
-    invoke-interface {v0, v2}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v0
 
@@ -973,11 +973,11 @@
     :cond_4
     iget-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->viewfinderView:Lcn/wps/moffice/extlibs/qrcode/view/ViewfinderView;
 
-    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     sget-object v1, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mScanTipsId:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v0
 
@@ -989,11 +989,11 @@
     :cond_5
     iget-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->viewfinderView:Lcn/wps/moffice/extlibs/qrcode/view/ViewfinderView;
 
-    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "public_shareplay_scanqrcode_tips"
 
-    invoke-interface {v0, v1}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v0
 
@@ -1002,11 +1002,11 @@
     .line 11
     iget-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->viewfinderView:Lcn/wps/moffice/extlibs/qrcode/view/ViewfinderView;
 
-    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     sget-object v1, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mScanTipsId:Ljava/lang/String;
 
-    invoke-interface {v0, v1}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v0
 
@@ -1183,11 +1183,11 @@
     .line 1
     iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mQRView:Landroid/view/View;
 
-    iget-object v1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "public_qrcode_btn"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -1200,11 +1200,11 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mQRView:Landroid/view/View;
 
-    iget-object v1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "public_qrcode_btn_img"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -1219,11 +1219,11 @@
     .line 3
     iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mQRView:Landroid/view/View;
 
-    iget-object v1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "public_qrcode_btn_text"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -1238,11 +1238,11 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mQRView:Landroid/view/View;
 
-    iget-object v1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "public_ocr_btn"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -1255,11 +1255,11 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mQRView:Landroid/view/View;
 
-    iget-object v1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "public_ocr_btn_img"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -1274,11 +1274,11 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mQRView:Landroid/view/View;
 
-    iget-object v1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "public_ocr_btn_text"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -1300,11 +1300,11 @@
     .line 8
     iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mOcrTextView:Landroid/widget/TextView;
 
-    iget-object v1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "public_qrcode_scan_bottom_bar"
 
-    invoke-interface {v1, v2}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v1
 
@@ -1316,11 +1316,11 @@
     :cond_0
     iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mOcrTextView:Landroid/widget/TextView;
 
-    iget-object v1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "public_scanf_ocr_doc"
 
-    invoke-interface {v1, v2}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v1
 
@@ -1778,9 +1778,9 @@
     .line 3
     iget-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mQrcodeImageView:Landroid/widget/ImageView;
 
-    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
-    invoke-interface {v0, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
@@ -1797,9 +1797,9 @@
     .line 5
     iget-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mQrcodeImageView:Landroid/widget/ImageView;
 
-    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
-    invoke-interface {v0, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
@@ -1818,11 +1818,11 @@
     .line 7
     iget-object p1, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mQrcodeImageView:Landroid/widget/ImageView;
 
-    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->mRm:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "public_scanf_qrcode"
 
-    invoke-interface {v0, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 

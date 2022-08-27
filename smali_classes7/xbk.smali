@@ -18,7 +18,7 @@
 
 .field public n0:Lcn/wps/moffice/extlibs/ciba/CibaDict;
 
-.field public o0:Ljo0;
+.field public o0:Lcom/resouce/module/IResourceManager;
 
 
 # direct methods
@@ -48,11 +48,11 @@
     iput-object p1, p0, Lxbk;->j0:Lcn/wps/moffice/extlibs/ciba/ICiba;
 
     .line 5
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
-    iput-object p1, p0, Lxbk;->o0:Ljo0;
+    iput-object p1, p0, Lxbk;->o0:Lcom/resouce/module/IResourceManager;
 
     return-void
 .end method
@@ -111,11 +111,11 @@
     return-object p0
 .end method
 
-.method public static synthetic U(Lxbk;)Ljo0;
+.method public static synthetic U(Lxbk;)Lcom/resouce/module/IResourceManager;
     .locals 0
 
     .line 1
-    iget-object p0, p0, Lxbk;->o0:Ljo0;
+    iget-object p0, p0, Lxbk;->o0:Lcom/resouce/module/IResourceManager;
 
     return-object p0
 .end method

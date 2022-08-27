@@ -64,13 +64,13 @@
     if-nez p2, :cond_1
 
     .line 5
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
     const-string v1, "writer_footend_note_forbidden_object"
 
-    invoke-interface {p2, v1}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {p2, v1}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result p2
 
@@ -167,13 +167,13 @@
     if-nez v0, :cond_0
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "writer_footend_note_forbidden_object"
 
-    invoke-interface {v0, v1}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v0
 
@@ -264,13 +264,13 @@
     if-nez p2, :cond_2
 
     .line 9
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
     const-string v1, "writer_footend_note_forbidden_object"
 
-    invoke-interface {p2, v1}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {p2, v1}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result p2
 

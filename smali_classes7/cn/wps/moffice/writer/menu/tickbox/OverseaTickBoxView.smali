@@ -36,11 +36,11 @@
     iput-object v0, p0, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->B:Lcn/wps/moffice/writer/menu/tickbox/TickBoxView$c;
 
     .line 2
-    iget-object v0, p0, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "tickbox_listview"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 

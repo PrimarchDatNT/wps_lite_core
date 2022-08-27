@@ -88,7 +88,7 @@
     iput-boolean p4, p0, Lcn/wps/moffice/common/beans/phone/contextview/ContextOpBaseButtonBar$BarItem_imgbutton;->T:Z
 
     .line 8
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p4
 
@@ -99,7 +99,7 @@
 
     const-string v2, "public_context_bar_item_height"
 
-    invoke-interface {p4, v2}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {p4, v2}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v2
 
@@ -116,7 +116,7 @@
 
     const-string v3, "public_context_bar_item_width"
 
-    invoke-interface {p4, v3}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {p4, v3}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v3
 
@@ -129,7 +129,7 @@
     const-string v3, "phone_public_context_op_bar_item_selector"
 
     .line 11
-    invoke-interface {p4, v3}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {p4, v3}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v3
 
@@ -145,11 +145,11 @@
     const-string p2, "color_white"
 
     .line 13
-    invoke-interface {p4, p2}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {p4, p2}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result p2
 
-    invoke-interface {p4, p2}, Ljo0;->l(I)I
+    invoke-interface {p4, p2}, Lcom/resouce/module/IResourceManager;->l(I)I
 
     move-result p2
 
@@ -161,11 +161,11 @@
     const-string p2, "normalIconColor"
 
     .line 14
-    invoke-interface {p4, p2}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {p4, p2}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result p2
 
-    invoke-interface {p4, p2}, Ljo0;->l(I)I
+    invoke-interface {p4, p2}, Lcom/resouce/module/IResourceManager;->l(I)I
 
     move-result p2
 
@@ -180,7 +180,7 @@
 
     const-string p3, "public_context_bar_img_item_padding_h"
 
-    invoke-interface {p4, p3}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {p4, p3}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result p3
 
@@ -195,7 +195,7 @@
 
     const-string v3, "public_context_bar_img_item_padding_v"
 
-    invoke-interface {p4, v3}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {p4, v3}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v3
 
@@ -213,7 +213,7 @@
 
     const-string p2, "contentMaskBackgroundColor"
 
-    invoke-interface {p4, p2}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {p4, p2}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result p2
 

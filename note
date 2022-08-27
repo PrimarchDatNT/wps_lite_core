@@ -17,3 +17,45 @@ C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/cn.wps.moffice_i18n/cod
 C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/cn.wps.moffice_i18n/code\smali_classes3\xo7.smali
 C:/Users/DatNT/Desktop/APKTOOL/apktool/apk-tool/projects/cn.wps.moffice_i18n/code\smali_classes3\zo7.smali
 --------------------------------------------------------------------------------------------------------
+
+android.annotation
+Landroid/annotation
+.class public interface abstract
+
+Ljo0; -> Lcom/resouce/module/IResourceManager;
+package android.annotation;
+SuppressLint
+
+adb shell "dumpsys activity activities | grep mResumedActivity"
+https://github.com/spring-projects/spring-boot/issues/2895
+--------------------------------------------------------------------------------------------------------
+
+46145 - smali
+55238 - smali2
+54693 - smali3
+54598 - smali4
+52605 - smali5
+52407 - smali6
+49182 - smali7
+50547 - smali8
+25236 - smali9
+36819 - smali10
+1642  - smali11
+39    - smali12
+8252  - smali13
+
+--------------------------------------------------------------------------------------------------------
+
+46145 - smali
+17827 - smali2
+54693 - smali3
+54598 - smali4
+52605 - smali5
+52407 - smali6
+49182 - smali7
+50547 - smali8
+25236 - smali9
+36819 - smali10
+1642  - smali11
+37450 - smali12
+8252  - smali13

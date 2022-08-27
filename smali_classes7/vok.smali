@@ -36,7 +36,7 @@
     iput-boolean v0, p0, Lvok;->k0:Z
 
     .line 5
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -51,7 +51,7 @@
 
     const-string v1, "phone_public_context_bar_text_color"
 
-    invoke-interface {v0, v1}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result v0
 
@@ -103,18 +103,18 @@
 
     .line 4
     :cond_1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
     const-string v3, "public_text_size_dip"
 
     .line 5
-    invoke-interface {v1, v3}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v1, v3}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v3
 
-    invoke-interface {v1, v3}, Ljo0;->b(I)I
+    invoke-interface {v1, v3}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result v1
 

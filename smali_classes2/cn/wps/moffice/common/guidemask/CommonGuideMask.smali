@@ -23,7 +23,7 @@
 
 .field public e:I
 
-.field public final f:Ljo0;
+.field public final f:Lcom/resouce/module/IResourceManager;
 
 .field public g:Landroid/graphics/Rect;
 
@@ -45,11 +45,11 @@
     iput v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->e:I
 
     .line 3
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
-    iput-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Ljo0;
+    iput-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Lcom/resouce/module/IResourceManager;
 
     .line 4
     iput-object p1, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->a:Landroid/content/Context;
@@ -464,11 +464,11 @@
 
     move-result-object v3
 
-    iget-object v7, v0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Ljo0;
+    iget-object v7, v0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Lcom/resouce/module/IResourceManager;
 
     const-string v13, "white"
 
-    invoke-interface {v7, v13}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {v7, v13}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result v7
 
@@ -674,9 +674,9 @@
     if-eq v0, v1, :cond_0
 
     .line 2
-    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Lcom/resouce/module/IResourceManager;
 
-    invoke-interface {v0, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
@@ -684,11 +684,11 @@
 
     .line 3
     :cond_0
-    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "public_red_arrow_down"
 
-    invoke-interface {v0, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
@@ -696,9 +696,9 @@
 
     .line 4
     :cond_1
-    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Lcom/resouce/module/IResourceManager;
 
-    invoke-interface {v0, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
@@ -706,11 +706,11 @@
 
     .line 5
     :cond_2
-    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "public_green_arrow_down"
 
-    invoke-interface {v0, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
@@ -718,11 +718,11 @@
 
     .line 6
     :cond_3
-    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "public_pdf_theme_arrow_down"
 
-    invoke-interface {v0, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
@@ -754,9 +754,9 @@
     if-eq v0, v1, :cond_0
 
     .line 2
-    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Lcom/resouce/module/IResourceManager;
 
-    invoke-interface {v0, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
@@ -764,11 +764,11 @@
 
     .line 3
     :cond_0
-    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "public_red_arrow_up"
 
-    invoke-interface {v0, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
@@ -776,9 +776,9 @@
 
     .line 4
     :cond_1
-    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Lcom/resouce/module/IResourceManager;
 
-    invoke-interface {v0, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
@@ -786,11 +786,11 @@
 
     .line 5
     :cond_2
-    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "public_green_arrow_up"
 
-    invoke-interface {v0, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
@@ -798,11 +798,11 @@
 
     .line 6
     :cond_3
-    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "public_pdf_theme_arrow_up"
 
-    invoke-interface {v0, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
@@ -834,9 +834,9 @@
     if-eq v0, v1, :cond_0
 
     .line 2
-    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Lcom/resouce/module/IResourceManager;
 
-    invoke-interface {v0, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
@@ -844,11 +844,11 @@
 
     .line 3
     :cond_0
-    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "public_red_background"
 
-    invoke-interface {v0, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
@@ -856,9 +856,9 @@
 
     .line 4
     :cond_1
-    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Lcom/resouce/module/IResourceManager;
 
-    invoke-interface {v0, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
@@ -866,11 +866,11 @@
 
     .line 5
     :cond_2
-    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "public_green_background"
 
-    invoke-interface {v0, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
@@ -878,11 +878,11 @@
 
     .line 6
     :cond_3
-    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/guidemask/CommonGuideMask;->f:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "public_pdf_theme_background"
 
-    invoke-interface {v0, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 

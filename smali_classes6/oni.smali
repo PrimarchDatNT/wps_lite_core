@@ -16,13 +16,13 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "reader_writer_table_edit_add_row"
 
-    invoke-interface {v0, v1}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -265,7 +265,7 @@
     if-nez v3, :cond_3
 
     .line 18
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v3
 
@@ -285,7 +285,7 @@
     const-string v5, "writer_table_over_line_bottom"
 
     .line 22
-    invoke-interface {v3, v5}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v3, v5}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v3
 

@@ -48,7 +48,7 @@
     if-nez v1, :cond_0
 
     .line 4
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
@@ -66,7 +66,7 @@
 
     const-string v3, "writer_btn_foot_end_note"
 
-    invoke-interface {v1, v3}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v1, v3}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v1
 

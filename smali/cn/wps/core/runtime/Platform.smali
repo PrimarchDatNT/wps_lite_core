@@ -32,7 +32,7 @@
 
 .field public static e:Lfo0;
 
-.field public static f:Ljo0;
+.field public static f:Lcom/resouce/module/IResourceManager;
 
 .field public static g:Lkhh;
 
@@ -336,11 +336,11 @@
     return-object v0
 .end method
 
-.method public static H0(Ljo0;)V
+.method public static H0(Lcom/resouce/module/IResourceManager;)V
     .locals 0
 
     .line 1
-    sput-object p0, Lcn/wps/core/runtime/Platform;->f:Ljo0;
+    sput-object p0, Lcn/wps/core/runtime/Platform;->f:Lcom/resouce/module/IResourceManager;
 
     return-void
 .end method
@@ -927,11 +927,11 @@
     return-void
 .end method
 
-.method public static O()Ljo0;
+.method public static O()Lcom/resouce/module/IResourceManager;
     .locals 1
 
     .line 1
-    sget-object v0, Lcn/wps/core/runtime/Platform;->f:Ljo0;
+    sget-object v0, Lcn/wps/core/runtime/Platform;->f:Lcom/resouce/module/IResourceManager;
 
     return-object v0
 .end method

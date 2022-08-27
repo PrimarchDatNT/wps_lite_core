@@ -99,7 +99,7 @@
 
     .line 3
     :cond_1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -115,7 +115,7 @@
 
     const-string v3, "writer_revision_btn_height"
 
-    invoke-interface {v0, v3}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v3}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v3
 
@@ -132,7 +132,7 @@
 
     const-string v2, "writer_revision_btn_margintop"
 
-    invoke-interface {v0, v2}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v2
 
@@ -156,7 +156,7 @@
     const-string v2, "writer_revision_switch_btn_bg_prev_selector"
 
     .line 8
-    invoke-interface {v0, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v2
 
@@ -167,7 +167,7 @@
 
     const-string v2, "writer_revision_switch_btn_prev"
 
-    invoke-interface {v0, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v2
 
@@ -187,7 +187,7 @@
     const-string v2, "writer_revision_switch_btn_bg_next_selector"
 
     .line 11
-    invoke-interface {v0, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v2
 
@@ -198,7 +198,7 @@
 
     const-string v2, "writer_revision_switch_btn_next"
 
-    invoke-interface {v0, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 

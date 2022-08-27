@@ -18,7 +18,7 @@
 
 
 # instance fields
-.field public final synthetic B:Ljo0;
+.field public final synthetic B:Lcom/resouce/module/IResourceManager;
 
 .field public final synthetic I:Landroid/content/Context;
 
@@ -26,13 +26,13 @@
 
 
 # direct methods
-.method public constructor <init>(Lkqh;Ljo0;Landroid/content/Context;)V
+.method public constructor <init>(Lkqh;Lcom/resouce/module/IResourceManager;Landroid/content/Context;)V
     .locals 0
 
     .line 1
     iput-object p1, p0, Lkqh$a;->S:Lkqh;
 
-    iput-object p2, p0, Lkqh$a;->B:Ljo0;
+    iput-object p2, p0, Lkqh$a;->B:Lcom/resouce/module/IResourceManager;
 
     iput-object p3, p0, Lkqh$a;->I:Landroid/content/Context;
 
@@ -107,11 +107,11 @@
     if-eqz p1, :cond_1
 
     .line 9
-    iget-object p1, p0, Lkqh$a;->B:Ljo0;
+    iget-object p1, p0, Lkqh$a;->B:Lcom/resouce/module/IResourceManager;
 
     const-string v0, "writer_foot_note_forbidden_edit"
 
-    invoke-interface {p1, v0}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {p1, v0}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result p1
 
@@ -119,11 +119,11 @@
 
     .line 10
     :cond_1
-    iget-object p1, p0, Lkqh$a;->B:Ljo0;
+    iget-object p1, p0, Lkqh$a;->B:Lcom/resouce/module/IResourceManager;
 
     const-string v0, "writer_end_note_forbidden_edit"
 
-    invoke-interface {p1, v0}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {p1, v0}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result p1
 

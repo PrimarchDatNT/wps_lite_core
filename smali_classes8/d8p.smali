@@ -607,7 +607,7 @@
     sput-boolean v1, Ld8p;->J:Z
 
     .line 10
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
@@ -630,7 +630,7 @@
     const-string v4, "ppt_read_note_bg"
 
     .line 13
-    invoke-interface {v1, v4}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v1, v4}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v4
 
@@ -650,7 +650,7 @@
     const-string v4, "ppt_read_note_head"
 
     .line 15
-    invoke-interface {v1, v4}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v1, v4}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v1
 

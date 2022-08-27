@@ -18,19 +18,19 @@
 
 
 # instance fields
-.field public final synthetic B:Ljo0;
+.field public final synthetic B:Lcom/resouce/module/IResourceManager;
 
 .field public final synthetic I:Lcn/wps/shareplay/pictureviewer/PictureViewerGuide$b;
 
 
 # direct methods
-.method public constructor <init>(Lcn/wps/shareplay/pictureviewer/PictureViewerGuide$b;Lcn/wps/shareplay/pictureviewer/PictureViewerGuide;Ljo0;)V
+.method public constructor <init>(Lcn/wps/shareplay/pictureviewer/PictureViewerGuide$b;Lcn/wps/shareplay/pictureviewer/PictureViewerGuide;Lcom/resouce/module/IResourceManager;)V
     .locals 0
 
     .line 1
     iput-object p1, p0, Lcn/wps/shareplay/pictureviewer/PictureViewerGuide$b$b;->I:Lcn/wps/shareplay/pictureviewer/PictureViewerGuide$b;
 
-    iput-object p3, p0, Lcn/wps/shareplay/pictureviewer/PictureViewerGuide$b$b;->B:Ljo0;
+    iput-object p3, p0, Lcn/wps/shareplay/pictureviewer/PictureViewerGuide$b$b;->B:Lcom/resouce/module/IResourceManager;
 
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -51,11 +51,11 @@
 
     move-result-object p1
 
-    iget-object v0, p0, Lcn/wps/shareplay/pictureviewer/PictureViewerGuide$b$b;->B:Ljo0;
+    iget-object v0, p0, Lcn/wps/shareplay/pictureviewer/PictureViewerGuide$b$b;->B:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "tv_picture_guide_anim"
 
-    invoke-interface {v0, v1}, Ljo0;->f(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->f(Ljava/lang/String;)I
 
     move-result v0
 

@@ -64,7 +64,7 @@
     if-nez v1, :cond_1
 
     .line 5
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -74,7 +74,7 @@
     move-result-object v1
 
     .line 7
-    invoke-interface {v0, v2}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -344,7 +344,7 @@
     if-nez v5, :cond_a
 
     .line 35
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -354,7 +354,7 @@
     move-result-object v1
 
     .line 37
-    invoke-interface {v0, v2}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -422,7 +422,7 @@
     move-object/from16 v5, p0
 
     .line 43
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -432,7 +432,7 @@
     move-result-object v1
 
     .line 45
-    invoke-interface {v0, v2}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -637,7 +637,7 @@
     if-nez v8, :cond_4
 
     .line 12
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
@@ -647,7 +647,7 @@
     move-result-object v0
 
     .line 14
-    invoke-interface {v1, v9}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v1, v9}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -867,7 +867,7 @@
     if-nez v1, :cond_a
 
     .line 34
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
@@ -877,7 +877,7 @@
     move-result-object v2
 
     .line 36
-    invoke-interface {v1, v9}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v1, v9}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -936,7 +936,7 @@
     .line 43
     :cond_d
     :goto_4
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
@@ -946,7 +946,7 @@
     move-result-object v0
 
     .line 45
-    invoke-interface {v1, v9}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v1, v9}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 
@@ -1041,7 +1041,7 @@
     if-nez v6, :cond_1
 
     .line 7
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
@@ -1055,7 +1055,7 @@
 
     move-result-object p2
 
-    invoke-interface {p1, p2}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, p2}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1097,7 +1097,7 @@
     .line 15
     :cond_4
     :goto_2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
@@ -1111,7 +1111,7 @@
 
     move-result-object p2
 
-    invoke-interface {p1, p2}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, p2}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1133,7 +1133,7 @@
     if-nez p1, :cond_6
 
     .line 20
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
@@ -1147,7 +1147,7 @@
 
     move-result-object p2
 
-    invoke-interface {p1, p2}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, p2}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1271,7 +1271,7 @@
     if-nez v6, :cond_1
 
     .line 7
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
@@ -1285,7 +1285,7 @@
 
     move-result-object p2
 
-    invoke-interface {p1, p2}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, p2}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1327,7 +1327,7 @@
     .line 15
     :cond_4
     :goto_2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
@@ -1341,7 +1341,7 @@
 
     move-result-object p2
 
-    invoke-interface {p1, p2}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, p2}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1476,7 +1476,7 @@
     if-nez p1, :cond_9
 
     .line 31
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
@@ -1490,7 +1490,7 @@
 
     move-result-object p2
 
-    invoke-interface {p1, p2}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, p2}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -1965,7 +1965,7 @@
     if-nez v1, :cond_1
 
     .line 5
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
@@ -1979,7 +1979,7 @@
 
     move-result-object p2
 
-    invoke-interface {p1, p2}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, p2}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -2036,7 +2036,7 @@
     if-nez p1, :cond_3
 
     .line 14
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
@@ -2050,7 +2050,7 @@
 
     move-result-object p2
 
-    invoke-interface {p1, p2}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, p2}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -2113,7 +2113,7 @@
     .line 23
     :cond_5
     :goto_0
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
@@ -2127,7 +2127,7 @@
 
     move-result-object p2
 
-    invoke-interface {p1, p2}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, p2}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -2617,7 +2617,7 @@
     if-nez v0, :cond_0
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
@@ -2627,7 +2627,7 @@
     move-result-object p0
 
     .line 4
-    invoke-interface {p1, v1}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, v1}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -2650,7 +2650,7 @@
     if-nez v0, :cond_1
 
     .line 8
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
@@ -2660,7 +2660,7 @@
     move-result-object p0
 
     .line 10
-    invoke-interface {p1, v1}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, v1}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 

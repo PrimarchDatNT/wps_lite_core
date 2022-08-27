@@ -199,7 +199,7 @@
     move-result-object v1
 
     .line 6
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v2
 
@@ -213,7 +213,7 @@
     const-string p0, "public_text_size_dip"
 
     .line 8
-    invoke-interface {v2, p0}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v2, p0}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result p0
 
@@ -223,7 +223,7 @@
     const-string p0, "phone_public_default_text_size"
 
     .line 9
-    invoke-interface {v2, p0}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v2, p0}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result p0
 
@@ -233,7 +233,7 @@
     if-eqz p0, :cond_2
 
     .line 10
-    invoke-interface {v2, p0}, Ljo0;->b(I)I
+    invoke-interface {v2, p0}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result p0
 
@@ -565,12 +565,12 @@
 
     .line 1
     :try_start_0
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     .line 2
-    invoke-interface {v0, p1}, Ljo0;->getString(I)Ljava/lang/String;
+    invoke-interface {v0, p1}, Lcom/resouce/module/IResourceManager;->getString(I)Ljava/lang/String;
 
     move-result-object p1
 
@@ -656,7 +656,7 @@
     move-result-object p2
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -673,7 +673,7 @@
     const-string p0, "public_text_size_dip"
 
     .line 5
-    invoke-interface {v0, p0}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, p0}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result p0
 
@@ -683,7 +683,7 @@
     const-string p0, "phone_public_default_text_size"
 
     .line 6
-    invoke-interface {v0, p0}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, p0}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result p0
 
@@ -723,7 +723,7 @@
     if-eqz p0, :cond_1
 
     .line 11
-    invoke-interface {v0, p0}, Ljo0;->b(I)I
+    invoke-interface {v0, p0}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result p0
 

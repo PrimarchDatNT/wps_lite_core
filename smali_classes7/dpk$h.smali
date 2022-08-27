@@ -169,13 +169,13 @@
     .line 3
     iget-object p1, p0, Ldpk$h;->W:Ldpk;
 
-    invoke-static {p1}, Ldpk;->g(Ldpk;)Ljo0;
+    invoke-static {p1}, Ldpk;->g(Ldpk;)Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
     const-string v1, "doc_scan_save_to_album"
 
-    invoke-interface {p1, v1}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, v1}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -229,13 +229,13 @@
     :cond_1
     iget-object p1, p0, Ldpk$h;->W:Ldpk;
 
-    invoke-static {p1}, Ldpk;->g(Ldpk;)Ljo0;
+    invoke-static {p1}, Ldpk;->g(Ldpk;)Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
     const-string v1, "public_saveDocumentLackOfStorageError"
 
-    invoke-interface {p1, v1}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, v1}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 
@@ -246,13 +246,13 @@
     :goto_0
     iget-object p1, p0, Ldpk$h;->W:Ldpk;
 
-    invoke-static {p1}, Ldpk;->g(Ldpk;)Ljo0;
+    invoke-static {p1}, Ldpk;->g(Ldpk;)Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
     const-string v1, "public_picture_savefail"
 
-    invoke-interface {p1, v1}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p1, v1}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 

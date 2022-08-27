@@ -9,7 +9,7 @@
 # instance fields
 .field public B:Ljava/lang/String;
 
-.field public I:Ljo0;
+.field public I:Lcom/resouce/module/IResourceManager;
 
 .field public S:Ltbk;
 
@@ -57,22 +57,22 @@
     iput-object p2, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->B:Ljava/lang/String;
 
     .line 5
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
-    iput-object p2, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Ljo0;
+    iput-object p2, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Lcom/resouce/module/IResourceManager;
 
     .line 6
     invoke-static {p1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object p2
 
-    iget-object p3, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Ljo0;
+    iget-object p3, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Lcom/resouce/module/IResourceManager;
 
     const-string p4, "writer_ciba_bar"
 
-    invoke-interface {p3, p4}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {p3, p4}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result p3
 
@@ -256,11 +256,11 @@
     .locals 6
 
     .line 1
-    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "ciba_more_layout"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -271,11 +271,11 @@
     iput-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->T:Landroid/view/View;
 
     .line 2
-    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "view_ciba_more"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -286,11 +286,11 @@
     iput-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->U:Landroid/view/View;
 
     .line 3
-    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "translate_view"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -301,11 +301,11 @@
     iput-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->V:Landroid/view/View;
 
     .line 4
-    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "view_search_page"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -331,11 +331,11 @@
     invoke-virtual {v0, p0}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
     .line 8
-    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "ciba_text_symbols"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -348,11 +348,11 @@
     iput-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->e0:Landroid/widget/TextView;
 
     .line 9
-    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "ciba_text_interpretation"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -365,11 +365,11 @@
     iput-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->f0:Landroid/widget/TextView;
 
     .line 10
-    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "ciba_text_more"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -382,11 +382,11 @@
     iput-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->a0:Landroid/widget/TextView;
 
     .line 11
-    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "translations_text"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -397,11 +397,11 @@
     check-cast v0, Landroid/widget/TextView;
 
     .line 12
-    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "ciba_text_error"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -414,11 +414,11 @@
     iput-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->c0:Landroid/widget/TextView;
 
     .line 13
-    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "ciba_text_word"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -431,11 +431,11 @@
     iput-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->g0:Landroid/widget/TextView;
 
     .line 14
-    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "ciba_text_search"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -448,11 +448,11 @@
     iput-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->b0:Landroid/widget/TextView;
 
     .line 15
-    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "ciba_text_ok"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -587,11 +587,11 @@
     .locals 3
 
     .line 1
-    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "line1"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -604,11 +604,11 @@
     invoke-virtual {v0, v1}, Landroid/view/View;->setBackgroundColor(I)V
 
     .line 2
-    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "line2"
 
-    invoke-interface {v0, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -663,11 +663,11 @@
     .line 2
     iget-object v0, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->c0:Landroid/widget/TextView;
 
-    iget-object v1, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/writer/menu/ciba/CibaBar;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "public_nfc_please_wait"
 
-    invoke-interface {v1, v2}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v1
 

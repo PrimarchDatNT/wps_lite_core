@@ -375,14 +375,14 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "writer_popballoon_audio_comment_item"
 
     .line 2
-    invoke-interface {v0, v1}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v1
 
@@ -397,7 +397,7 @@
     const-string v1, "writer_popballoon_item_container"
 
     .line 3
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -412,7 +412,7 @@
 
     const-string v1, "writer_popballoon_item_custom_layout"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -429,7 +429,7 @@
 
     const-string v1, "author_icon"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -446,7 +446,7 @@
 
     const-string v1, "audio_comment_user_name"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -463,7 +463,7 @@
 
     const-string v1, "audio_comment_time"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -480,7 +480,7 @@
 
     const-string v1, "color_flag"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -495,7 +495,7 @@
 
     const-string v1, "writer_popballoon_item_custom_divider"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -508,11 +508,11 @@
     const-string p1, "writer_audio_comment_item_margin"
 
     .line 10
-    invoke-interface {v0, p1}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, p1}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result p1
 
-    invoke-interface {v0, p1}, Ljo0;->b(I)I
+    invoke-interface {v0, p1}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result p1
 
@@ -1064,7 +1064,7 @@
     move-result-object p4
 
     .line 27
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -1080,11 +1080,11 @@
     const-string p1, "writer_audio_comment_user_icon_width"
 
     .line 29
-    invoke-interface {v0, p1}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, p1}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result p1
 
-    invoke-interface {v0, p1}, Ljo0;->b(I)I
+    invoke-interface {v0, p1}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result p1
 
@@ -1105,7 +1105,7 @@
 
     const-string p4, "home_mypurchasing_drawer_icon_avatar"
 
-    invoke-interface {v0, p4}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, p4}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result p4
 

@@ -22,11 +22,11 @@
     invoke-super {p0}, Lcn/wps/moffice/writer/menu/hyperlink/HyperlinkBar;->a()V
 
     .line 2
-    iget-object v0, p0, Lcn/wps/moffice/writer/menu/hyperlink/HyperlinkBar;->S:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/writer/menu/hyperlink/HyperlinkBar;->S:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "hyperlink_text"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -37,11 +37,11 @@
     check-cast v0, Landroid/widget/TextView;
 
     .line 3
-    iget-object v1, p0, Lcn/wps/moffice/writer/menu/hyperlink/HyperlinkBar;->S:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/writer/menu/hyperlink/HyperlinkBar;->S:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "hyperlink_image"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 

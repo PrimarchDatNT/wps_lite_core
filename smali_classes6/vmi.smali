@@ -72,23 +72,23 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
     const-string v2, "phone_writer_decorate_color"
 
-    invoke-interface {v1, v2}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result v1
 
     .line 3
-    invoke-interface {v0, v1}, Ljo0;->l(I)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->l(I)I
 
     move-result v0
 
@@ -98,23 +98,23 @@
     sput v0, Lvmi;->N:I
 
     .line 5
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     .line 6
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
     const-string v2, "phone_writer_decorate_pressed_color"
 
-    invoke-interface {v1, v2}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result v1
 
     .line 7
-    invoke-interface {v0, v1}, Ljo0;->l(I)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->l(I)I
 
     move-result v0
 
@@ -588,7 +588,7 @@
     move-object/from16 v7, p1
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v8
 
@@ -710,7 +710,7 @@
     const-string v0, "writer_paragraph_set_spaceafter"
 
     .line 9
-    invoke-interface {v8, v0}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v8, v0}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v0
 
@@ -756,7 +756,7 @@
     const-string v0, "writer_paragraph_set_spacebefore"
 
     .line 14
-    invoke-interface {v8, v0}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v8, v0}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v0
 
@@ -850,7 +850,7 @@
     if-eqz v0, :cond_5
 
     .line 23
-    invoke-interface {v8, v13}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v8, v13}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v0
 
@@ -858,7 +858,7 @@
 
     .line 24
     :cond_5
-    invoke-interface {v8, v14}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v8, v14}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v0
 
@@ -1018,7 +1018,7 @@
     if-eqz v0, :cond_b
 
     .line 39
-    invoke-interface {v8, v14}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v8, v14}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v0
 
@@ -1026,7 +1026,7 @@
 
     .line 40
     :cond_b
-    invoke-interface {v8, v13}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v8, v13}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v0
 
@@ -1168,7 +1168,7 @@
     const-string v1, "writer_paragraph_set_firstlineindent"
 
     .line 50
-    invoke-interface {v8, v1}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v8, v1}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v1
 
@@ -1190,7 +1190,7 @@
     if-eqz v1, :cond_e
 
     .line 54
-    invoke-interface {v8, v14}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v8, v14}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v1
 
@@ -1198,7 +1198,7 @@
 
     .line 55
     :cond_e
-    invoke-interface {v8, v13}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v8, v13}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v1
 
@@ -1212,7 +1212,7 @@
     const-string v1, "writer_paragraph_set_hangingindent"
 
     .line 57
-    invoke-interface {v8, v1}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v8, v1}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v1
 
@@ -1236,7 +1236,7 @@
     if-eqz v1, :cond_10
 
     .line 61
-    invoke-interface {v8, v14}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v8, v14}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v1
 
@@ -1244,7 +1244,7 @@
 
     .line 62
     :cond_10
-    invoke-interface {v8, v13}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v8, v13}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v1
 
@@ -2079,13 +2079,13 @@
 
     move-result-object v0
 
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
     const-string v2, "public_toolbar_icon_fontsize"
 
-    invoke-interface {v1, v2}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v1
 

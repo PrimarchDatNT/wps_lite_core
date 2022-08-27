@@ -23,7 +23,7 @@
 
 .field public X:Z
 
-.field public Y:Ljo0;
+.field public Y:Lcom/resouce/module/IResourceManager;
 
 .field public Z:Landroid/view/View;
 
@@ -78,11 +78,11 @@
     iput-boolean p1, p0, Lbde;->b0:Z
 
     .line 10
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
-    iput-object p1, p0, Lbde;->Y:Ljo0;
+    iput-object p1, p0, Lbde;->Y:Lcom/resouce/module/IResourceManager;
 
     .line 11
     invoke-static {}, Ljava/text/NumberFormat;->getPercentInstance()Ljava/text/NumberFormat;
@@ -131,11 +131,11 @@
     .line 2
     iget-object v0, p0, Lbde;->V:Landroid/view/LayoutInflater;
 
-    iget-object v1, p0, Lbde;->Y:Ljo0;
+    iget-object v1, p0, Lbde;->Y:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "ppt_slidescale_progressbar"
 
-    invoke-interface {v1, v2}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v1
 
@@ -199,11 +199,11 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lbde;->Y:Ljo0;
+    iget-object v1, p0, Lbde;->Y:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "progress"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -220,11 +220,11 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lbde;->Y:Ljo0;
+    iget-object v1, p0, Lbde;->Y:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "progress_percent"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 

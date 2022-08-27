@@ -24,7 +24,7 @@
 
 .field public g:Landroid/graphics/Paint;
 
-.field public h:Ljo0;
+.field public h:Lcom/resouce/module/IResourceManager;
 
 
 # direct methods
@@ -61,11 +61,11 @@
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
-    iput-object v0, p0, Lz9c;->h:Ljo0;
+    iput-object v0, p0, Lz9c;->h:Lcom/resouce/module/IResourceManager;
 
     .line 3
     iput-object p1, p0, Lz9c;->a:Landroid/content/Context;
@@ -357,7 +357,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lz9c;->h:Ljo0;
+    iget-object v1, p0, Lz9c;->h:Lcom/resouce/module/IResourceManager;
 
     iget-object v2, p0, Lz9c;->b:Lpyb;
 
@@ -365,7 +365,7 @@
 
     move-result-object v2
 
-    invoke-interface {v1, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v1
 

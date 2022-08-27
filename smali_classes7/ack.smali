@@ -327,14 +327,14 @@
     .locals 5
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "phone_writer_paste_choose_menu_body"
 
     .line 2
-    invoke-interface {v0, v1}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v1
 
@@ -364,7 +364,7 @@
     const-string v2, "radio_keep_format"
 
     .line 4
-    invoke-interface {v0, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v2
 
@@ -377,7 +377,7 @@
     const-string v2, "radio_remove_format"
 
     .line 5
-    invoke-interface {v0, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v2
 
@@ -390,7 +390,7 @@
     const-string v2, "choose_menu_close"
 
     .line 6
-    invoke-interface {v0, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 

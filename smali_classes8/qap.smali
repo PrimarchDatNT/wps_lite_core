@@ -832,13 +832,13 @@
 
     invoke-direct {v1}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v3
 
     const-string v4, "ppt_slide"
 
-    invoke-interface {v3, v4}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v3, v4}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 

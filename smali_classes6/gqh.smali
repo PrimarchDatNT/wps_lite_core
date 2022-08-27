@@ -148,12 +148,12 @@
     move-result-object p1
 
     .line 10
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
     .line 11
-    invoke-virtual {p0, p2, p1}, Lgqh;->g(Ljo0;Landroid/content/Context;)Lcn/wps/moffice/writer/balloon/phonemode/CustomArrowPopViewBg;
+    invoke-virtual {p0, p2, p1}, Lgqh;->g(Lcom/resouce/module/IResourceManager;Landroid/content/Context;)Lcn/wps/moffice/writer/balloon/phonemode/CustomArrowPopViewBg;
 
     move-result-object v0
 
@@ -162,7 +162,7 @@
     const-string v2, "writer_popballoon_container"
 
     .line 12
-    invoke-interface {p2, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p2, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v2
 
@@ -177,7 +177,7 @@
     const-string v3, "writer_popballoon_progressbar"
 
     .line 13
-    invoke-interface {p2, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p2, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v3
 
@@ -190,7 +190,7 @@
     const-string v3, "writer_popballoon_item_trans_comment"
 
     .line 14
-    invoke-interface {p2, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p2, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v3
 
@@ -203,7 +203,7 @@
     const-string v3, "writer_popballoon_btn_delete"
 
     .line 15
-    invoke-interface {p2, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p2, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v3
 
@@ -221,7 +221,7 @@
     const-string v3, "writer_popballoon_content"
 
     .line 17
-    invoke-interface {p2, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p2, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v3
 
@@ -244,7 +244,7 @@
     const-string v4, "writer_popballoon_arrow_width"
 
     .line 20
-    invoke-interface {p2, v4}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {p2, v4}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v4
 
@@ -263,7 +263,7 @@
     const-string v3, "writer_popballoon_arrow_height"
 
     .line 23
-    invoke-interface {p2, v3}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {p2, v3}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result p2
 
@@ -705,7 +705,7 @@
     return-void
 .end method
 
-.method public g(Ljo0;Landroid/content/Context;)Lcn/wps/moffice/writer/balloon/phonemode/CustomArrowPopViewBg;
+.method public g(Lcom/resouce/module/IResourceManager;Landroid/content/Context;)Lcn/wps/moffice/writer/balloon/phonemode/CustomArrowPopViewBg;
     .locals 1
 
     .line 1
@@ -716,7 +716,7 @@
     const-string v0, "writer_popballoon_with_arrow"
 
     .line 2
-    invoke-interface {p1, v0}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {p1, v0}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result p1
 

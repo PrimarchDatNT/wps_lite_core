@@ -12,7 +12,7 @@
 
 
 # instance fields
-.field public final B:Ljo0;
+.field public final B:Lcom/resouce/module/IResourceManager;
 
 .field public I:I
 
@@ -73,11 +73,11 @@
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 4
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p3
 
-    iput-object p3, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Ljo0;
+    iput-object p3, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Lcom/resouce/module/IResourceManager;
 
     const/16 p3, 0x8c
 
@@ -271,11 +271,11 @@
 
     iget-object v1, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->b0:Landroid/content/Context;
 
-    iget-object v2, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Ljo0;
+    iget-object v2, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Lcom/resouce/module/IResourceManager;
 
     const-string v3, "new_phone_documents_maintoolbar_height"
 
-    invoke-interface {v2, v3}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v2
 
@@ -445,11 +445,11 @@
 
     .line 1
     :cond_0
-    iget-object v0, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "CommonErrorPage"
 
-    invoke-interface {v0, v1}, Ljo0;->c(Ljava/lang/String;)[I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->c(Ljava/lang/String;)[I
 
     move-result-object v0
 
@@ -458,11 +458,11 @@
     move-result-object p1
 
     .line 2
-    iget-object p2, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Ljo0;
+    iget-object p2, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Lcom/resouce/module/IResourceManager;
 
     const-string v0, "CommonErrorPage_tipsImgId"
 
-    invoke-interface {p2, v0}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {p2, v0}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p2
 
@@ -473,11 +473,11 @@
     move-result p2
 
     .line 3
-    iget-object v1, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "CommonErrorPage_tipsText"
 
-    invoke-interface {v1, v2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result v1
 
@@ -486,11 +486,11 @@
     move-result v1
 
     .line 4
-    iget-object v2, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Ljo0;
+    iget-object v2, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Lcom/resouce/module/IResourceManager;
 
     const-string v3, "CommonErrorPage_tipsBtnText"
 
-    invoke-interface {v2, v3}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result v2
 
@@ -499,11 +499,11 @@
     move-result v2
 
     .line 5
-    iget-object v3, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Ljo0;
+    iget-object v3, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Lcom/resouce/module/IResourceManager;
 
     const-string v4, "CommonErrorPage_extLayout"
 
-    invoke-interface {v3, v4}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v3, v4}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result v3
 
@@ -512,11 +512,11 @@
     move-result v3
 
     .line 6
-    iget-object v4, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Ljo0;
+    iget-object v4, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Lcom/resouce/module/IResourceManager;
 
     const-string v5, "CommonErrorPage_backgroupColor"
 
-    invoke-interface {v4, v5}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v4, v5}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result v4
 
@@ -654,11 +654,11 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "public_error_page_content"
 
-    invoke-interface {v1, v2}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v1
 
@@ -667,11 +667,11 @@
     invoke-virtual {v0, v1, p0, v2}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
     .line 2
-    iget-object v0, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "public_common_error_container"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 
@@ -684,11 +684,11 @@
     iput-object v0, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->S:Landroid/widget/LinearLayout;
 
     .line 3
-    iget-object v1, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "public_common_error_container_content"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -703,11 +703,11 @@
     .line 4
     iget-object v0, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->S:Landroid/widget/LinearLayout;
 
-    iget-object v1, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "public_common_error_img"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -722,11 +722,11 @@
     .line 5
     iget-object v0, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->S:Landroid/widget/LinearLayout;
 
-    iget-object v1, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "public_common_error_text_tips"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -741,11 +741,11 @@
     .line 6
     iget-object v0, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->S:Landroid/widget/LinearLayout;
 
-    iget-object v1, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "public_common_error_btn"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -760,11 +760,11 @@
     .line 7
     iget-object v0, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->S:Landroid/widget/LinearLayout;
 
-    iget-object v1, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Ljo0;
+    iget-object v1, p0, Lcn/wps/moffice/common/beans/CommonErrorPage;->B:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "public_common_error_extlayout"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 

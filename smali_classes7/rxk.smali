@@ -973,7 +973,7 @@
     invoke-virtual {p0}, Lrxk;->h()Lkxk;
 
     .line 16
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -1011,7 +1011,7 @@
     const-string p1, "public_insert_comment"
 
     :goto_0
-    invoke-interface {v0, p1}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, p1}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p1
 

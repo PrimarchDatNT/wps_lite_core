@@ -828,12 +828,12 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     .line 2
-    invoke-interface {v0, p1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, p1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result p1
 

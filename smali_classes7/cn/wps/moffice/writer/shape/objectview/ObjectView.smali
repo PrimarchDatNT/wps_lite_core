@@ -228,7 +228,7 @@
     iput-object p1, p0, Lcn/wps/moffice/writer/shape/objectview/ObjectView;->v0:Ljava/lang/Thread;
 
     .line 32
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
@@ -244,7 +244,7 @@
     const-string v1, "writer_object_view_padding"
 
     .line 34
-    invoke-interface {p1, v1}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {p1, v1}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result p1
 

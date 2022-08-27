@@ -285,7 +285,7 @@
     invoke-virtual {v0, v1}, Lje3;->i(Z)V
 
     .line 4
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -294,7 +294,7 @@
 
     const-string v2, "Animations_PopMagnifier_Reflect"
 
-    invoke-interface {v0, v2}, Ljo0;->k(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->k(Ljava/lang/String;)I
 
     move-result v2
 
@@ -312,7 +312,7 @@
     const-string v2, "public_text_select_handle_magnifier"
 
     .line 7
-    invoke-interface {v0, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 
@@ -322,7 +322,7 @@
     const-string v2, "phone_public_text_select_handle_magnifier"
 
     .line 8
-    invoke-interface {v0, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v0
 

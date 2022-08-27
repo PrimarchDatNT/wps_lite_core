@@ -137,7 +137,7 @@
     invoke-virtual {p1, p2}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     .line 14
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
@@ -146,7 +146,7 @@
 
     const-string p3, "writer_popballoon_item_trans_revision"
 
-    invoke-interface {p1, p3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p1, p3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result p3
 
@@ -170,7 +170,7 @@
 
     const-string p3, "writer_popballoon_btn_accept"
 
-    invoke-interface {p1, p3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p1, p3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result p3
 
@@ -187,7 +187,7 @@
 
     const-string p4, "writer_popballoon_btn_reject"
 
-    invoke-interface {p1, p4}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p1, p4}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result p1
 

@@ -4,7 +4,7 @@
 
 
 # instance fields
-.field public final B:Ljo0;
+.field public final B:Lcom/resouce/module/IResourceManager;
 
 .field public I:Landroid/view/View;
 
@@ -59,11 +59,11 @@
     invoke-direct {p0, p1, p2, p3}, Landroid/widget/RelativeLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;I)V
 
     .line 4
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
-    iput-object p2, p0, Lcn/wps/moffice/common/superwebview/WebviewErrorPage;->B:Ljo0;
+    iput-object p2, p0, Lcn/wps/moffice/common/superwebview/WebviewErrorPage;->B:Lcom/resouce/module/IResourceManager;
 
     .line 5
     invoke-virtual {p0, p1}, Lcn/wps/moffice/common/superwebview/WebviewErrorPage;->c(Landroid/content/Context;)V
@@ -98,11 +98,11 @@
 
     iget-object v1, p0, Lcn/wps/moffice/common/superwebview/WebviewErrorPage;->d0:Landroid/content/Context;
 
-    iget-object v2, p0, Lcn/wps/moffice/common/superwebview/WebviewErrorPage;->B:Ljo0;
+    iget-object v2, p0, Lcn/wps/moffice/common/superwebview/WebviewErrorPage;->B:Lcom/resouce/module/IResourceManager;
 
     const-string v3, "new_phone_documents_maintoolbar_height"
 
-    invoke-interface {v2, v3}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v2
 

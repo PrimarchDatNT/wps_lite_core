@@ -162,13 +162,13 @@
     iput-boolean v0, p0, Lcn/wps/moffice/common/beans/MaterialProgressBarCycle;->m0:Z
 
     .line 42
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "material_progressbar_cycle"
 
-    invoke-interface {v0, v1}, Ljo0;->k(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->k(Ljava/lang/String;)I
 
     move-result v0
 
@@ -303,14 +303,14 @@
     .locals 5
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "MaterialProgressBarCycle"
 
     .line 2
-    invoke-interface {v0, v1}, Ljo0;->c(Ljava/lang/String;)[I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->c(Ljava/lang/String;)[I
 
     move-result-object v1
 
@@ -364,7 +364,7 @@
     const-string p2, "MaterialProgressBarCycle_circleRadius"
 
     .line 6
-    invoke-interface {v0, p2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, p2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p2
 
@@ -383,7 +383,7 @@
     const-string p2, "MaterialProgressBarCycle_fillRadius"
 
     .line 7
-    invoke-interface {v0, p2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, p2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p2
 
@@ -396,7 +396,7 @@
     const-string p2, "MaterialProgressBarCycle_barWidth"
 
     .line 8
-    invoke-interface {v0, p2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, p2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p2
 
@@ -415,7 +415,7 @@
     const-string p2, "MaterialProgressBarCycle_rimWidth"
 
     .line 9
-    invoke-interface {v0, p2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, p2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p2
 
@@ -434,7 +434,7 @@
     const-string p2, "MaterialProgressBarCycle_spinSpeed"
 
     .line 10
-    invoke-interface {v0, p2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, p2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p2
 
@@ -456,7 +456,7 @@
     const-string p2, "MaterialProgressBarCycle_barSpinCycleTime"
 
     .line 12
-    invoke-interface {v0, p2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, p2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p2
 
@@ -475,7 +475,7 @@
     const-string p2, "MaterialProgressBarCycle_barColor1"
 
     .line 13
-    invoke-interface {v0, p2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, p2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p2
 
@@ -497,7 +497,7 @@
     const-string p2, "MaterialProgressBarCycle_barColor2"
 
     .line 15
-    invoke-interface {v0, p2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, p2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p2
 
@@ -520,7 +520,7 @@
     const-string p2, "MaterialProgressBarCycle_barColor3"
 
     .line 17
-    invoke-interface {v0, p2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, p2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p2
 
@@ -543,7 +543,7 @@
     const-string p2, "MaterialProgressBarCycle_barColor4"
 
     .line 19
-    invoke-interface {v0, p2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, p2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p2
 
@@ -566,7 +566,7 @@
     const-string p2, "MaterialProgressBarCycle_rimColor"
 
     .line 21
-    invoke-interface {v0, p2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, p2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p2
 
@@ -581,7 +581,7 @@
     const-string p2, "MaterialProgressBarCycle_needResizeHeight"
 
     .line 22
-    invoke-interface {v0, p2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, p2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p2
 
@@ -594,7 +594,7 @@
     const-string p2, "MaterialProgressBarCycle_progressIndeterminate"
 
     .line 23
-    invoke-interface {v0, p2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, p2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p2
 

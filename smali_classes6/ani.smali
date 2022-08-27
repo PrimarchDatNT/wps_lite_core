@@ -14,7 +14,7 @@
 # instance fields
 .field public d0:Lzri;
 
-.field public e0:Ljo0;
+.field public e0:Lcom/resouce/module/IResourceManager;
 
 
 # direct methods
@@ -63,11 +63,11 @@
     move-result-object v0
 
     .line 2
-    iget-object v1, p0, Lani;->e0:Ljo0;
+    iget-object v1, p0, Lani;->e0:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "radio_unit_cm"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -82,11 +82,11 @@
     invoke-virtual {p0, v1, v2, v3}, Lvzl;->L1(ILczl;Ljava/lang/String;)V
 
     .line 3
-    iget-object v1, p0, Lani;->e0:Ljo0;
+    iget-object v1, p0, Lani;->e0:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "radio_unit_inch"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -115,11 +115,11 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
-    iput-object v0, p0, Lani;->e0:Ljo0;
+    iput-object v0, p0, Lani;->e0:Lcom/resouce/module/IResourceManager;
 
     .line 2
     invoke-static {}, Ljsi;->j()Z
@@ -128,23 +128,23 @@
 
     if-eqz v0, :cond_0
 
-    iget-object v0, p0, Lani;->e0:Ljo0;
+    iget-object v0, p0, Lani;->e0:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "phone_writer_page_unit_choose_menu"
 
-    invoke-interface {v0, v1}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v0
 
     goto :goto_0
 
     :cond_0
-    iget-object v0, p0, Lani;->e0:Ljo0;
+    iget-object v0, p0, Lani;->e0:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "writer_page_unit_choose_menu"
 
     .line 3
-    invoke-interface {v0, v1}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v0
 

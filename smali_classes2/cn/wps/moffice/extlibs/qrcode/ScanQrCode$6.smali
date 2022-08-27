@@ -47,13 +47,13 @@
 
     iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode$6;->this$0:Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;
 
-    invoke-static {v0}, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->access$1000(Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;)Ljo0;
+    invoke-static {v0}, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->access$1000(Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;)Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "public_shareplay_scanqrcode_tips"
 
-    invoke-interface {v0, v1}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v0
 
@@ -68,7 +68,7 @@
 
     iget-object v0, p0, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode$6;->this$0:Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;
 
-    invoke-static {v0}, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->access$1000(Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;)Ljo0;
+    invoke-static {v0}, Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;->access$1000(Lcn/wps/moffice/extlibs/qrcode/ScanQrCode;)Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -76,7 +76,7 @@
 
     move-result-object v1
 
-    invoke-interface {v0, v1}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result v0
 

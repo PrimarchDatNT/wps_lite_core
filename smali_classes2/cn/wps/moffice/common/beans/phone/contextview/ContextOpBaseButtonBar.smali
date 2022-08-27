@@ -250,7 +250,7 @@
     .locals 13
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -265,7 +265,7 @@
 
     const-string v2, "public_context_bar_line_margin_v"
 
-    invoke-interface {v0, v2}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v2
 
@@ -285,11 +285,11 @@
     :cond_0
     const-string v2, "lineColor"
 
-    invoke-interface {v0, v2}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result v2
 
-    invoke-interface {v0, v2}, Ljo0;->l(I)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->l(I)I
 
     move-result v0
 
@@ -521,7 +521,7 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -570,7 +570,7 @@
 
     const-string v1, "phone_public_op_base_buttonbar"
 
-    invoke-interface {v0, v1}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v1
 
@@ -585,7 +585,7 @@
     const-string v1, "base_buttonbar_scrollView"
 
     .line 6
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -602,7 +602,7 @@
 
     const-string v1, "base_buttonbar_layout"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 

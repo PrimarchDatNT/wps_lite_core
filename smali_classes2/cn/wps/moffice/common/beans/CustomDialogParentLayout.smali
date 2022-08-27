@@ -8,7 +8,7 @@
 
 .field public I:F
 
-.field public final S:Ljo0;
+.field public final S:Lcom/resouce/module/IResourceManager;
 
 .field public T:I
 
@@ -33,20 +33,20 @@
     iput p2, p0, Lcn/wps/moffice/common/beans/CustomDialogParentLayout;->I:F
 
     .line 4
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
-    iput-object p2, p0, Lcn/wps/moffice/common/beans/CustomDialogParentLayout;->S:Ljo0;
+    iput-object p2, p0, Lcn/wps/moffice/common/beans/CustomDialogParentLayout;->S:Lcom/resouce/module/IResourceManager;
 
     const-string v0, "phone_public_dialog_shadow_elevation"
 
     .line 5
-    invoke-interface {p2, v0}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {p2, v0}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v0
 
-    invoke-interface {p2, v0}, Ljo0;->b(I)I
+    invoke-interface {p2, v0}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result p2
 

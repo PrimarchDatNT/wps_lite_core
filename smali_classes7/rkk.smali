@@ -49,7 +49,7 @@
     if-nez v0, :cond_0
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -67,7 +67,7 @@
     const-string v3, "writer_page_num_font_size"
 
     .line 4
-    invoke-interface {v0, v3}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v3}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v0
 
@@ -302,13 +302,13 @@
     if-nez p2, :cond_8
 
     .line 30
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
     const-string p4, "phone_writer_readoptions_page_loading"
 
-    invoke-interface {p2, p4}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {p2, p4}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object p2
 

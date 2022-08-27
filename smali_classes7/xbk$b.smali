@@ -45,13 +45,13 @@
 
     iget-object v1, p0, Lxbk$b;->a:Lxbk;
 
-    invoke-static {v1}, Lxbk;->U(Lxbk;)Ljo0;
+    invoke-static {v1}, Lxbk;->U(Lxbk;)Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
     const-string v2, "view_ciba_more"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -94,13 +94,13 @@
 
     iget-object v1, p0, Lxbk$b;->a:Lxbk;
 
-    invoke-static {v1}, Lxbk;->U(Lxbk;)Ljo0;
+    invoke-static {v1}, Lxbk;->U(Lxbk;)Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
     const-string v3, "translate_view"
 
-    invoke-interface {v1, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -126,13 +126,13 @@
 
     iget-object v0, p0, Lxbk$b;->a:Lxbk;
 
-    invoke-static {v0}, Lxbk;->U(Lxbk;)Ljo0;
+    invoke-static {v0}, Lxbk;->U(Lxbk;)Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "view_search_page"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 

@@ -37,14 +37,14 @@
     iput-object p2, p0, Lfqh;->g:Lyfk;
 
     .line 4
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
     const-string p4, "writer_popballoon_item"
 
     .line 5
-    invoke-interface {p2, p4}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {p2, p4}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result p4
 
@@ -57,7 +57,7 @@
     const-string p4, "writer_popballoon_item_custom_layout"
 
     .line 6
-    invoke-interface {p2, p4}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p2, p4}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result p4
 
@@ -72,7 +72,7 @@
     const-string p4, "writer_popballoon_item_custom_title"
 
     .line 7
-    invoke-interface {p2, p4}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p2, p4}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result p4
 
@@ -92,7 +92,7 @@
     const-string p4, "writer_popballoon_item_custom_divider"
 
     .line 9
-    invoke-interface {p2, p4}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p2, p4}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result p4
 
@@ -110,7 +110,7 @@
     const-string p4, "writer_popballoon_item_btn_size"
 
     .line 11
-    invoke-interface {p2, p4}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {p2, p4}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result p4
 
@@ -129,7 +129,7 @@
     const-string p3, "color_writer_popballoon_bg_item"
 
     .line 14
-    invoke-interface {p2, p3}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {p2, p3}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result p2
 

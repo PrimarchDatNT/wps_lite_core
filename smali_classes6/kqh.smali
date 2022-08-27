@@ -73,7 +73,7 @@
     invoke-virtual {p2, p3}, Landroid/view/ViewGroup;->addView(Landroid/view/View;)V
 
     .line 6
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
@@ -82,7 +82,7 @@
 
     const-string p4, "writer_edit_footEndnote"
 
-    invoke-interface {p2, p4}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p2, p4}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result p4
 
@@ -104,7 +104,7 @@
 
     new-instance p4, Lkqh$a;
 
-    invoke-direct {p4, p0, p2, p1}, Lkqh$a;-><init>(Lkqh;Ljo0;Landroid/content/Context;)V
+    invoke-direct {p4, p0, p2, p1}, Lkqh$a;-><init>(Lkqh;Lcom/resouce/module/IResourceManager;Landroid/content/Context;)V
 
     invoke-virtual {p3, p4}, Landroid/widget/ImageView;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 

@@ -37,7 +37,7 @@
 
 .field public o:Ljava/lang/Object;
 
-.field public p:Ljo0;
+.field public p:Lcom/resouce/module/IResourceManager;
 
 .field public q:Z
 
@@ -163,11 +163,11 @@
     iput-object v0, p0, Ly5c;->o:Ljava/lang/Object;
 
     .line 9
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
-    iput-object v0, p0, Ly5c;->p:Ljo0;
+    iput-object v0, p0, Ly5c;->p:Lcom/resouce/module/IResourceManager;
 
     .line 10
     new-instance v0, Ljava/util/ArrayList;
@@ -1995,7 +1995,7 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Ly5c;->p:Ljo0;
+    iget-object v1, p0, Ly5c;->p:Lcom/resouce/module/IResourceManager;
 
     iget-object v2, p0, Ly5c;->h:Lpyb;
 
@@ -2003,7 +2003,7 @@
 
     move-result-object v2
 
-    invoke-interface {v1, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v1
 

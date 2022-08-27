@@ -231,7 +231,7 @@
     invoke-virtual {v1, v3}, Landroid/widget/ImageView;->setOnTouchListener(Landroid/view/View$OnTouchListener;)V
 
     .line 30
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
@@ -243,7 +243,7 @@
     const-string v4, "phone_public_hit_point_circle"
 
     .line 32
-    invoke-interface {v1, v4}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v1, v4}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v1
 

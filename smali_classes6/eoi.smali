@@ -17,13 +17,13 @@
     invoke-direct {p0, p2}, Ljoi;-><init>(Lvni;)V
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
     const-string v0, "public_table_split_columns_exceed_maximum"
 
-    invoke-interface {p2, v0}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {p2, v0}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result p2
 

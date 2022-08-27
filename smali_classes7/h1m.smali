@@ -1420,18 +1420,18 @@
     if-gtz v0, :cond_0
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "public_toolbar_icon_fontsize"
 
     .line 3
-    invoke-interface {v0, v1}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v1
 
-    invoke-interface {v0, v1}, Ljo0;->b(I)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result v0
 
@@ -1463,18 +1463,18 @@
     if-gtz v0, :cond_0
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "public_toolbar_icon_fontsize"
 
     .line 3
-    invoke-interface {v0, v1}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v1
 
-    invoke-interface {v0, v1}, Ljo0;->b(I)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result v0
 
@@ -1607,14 +1607,14 @@
     .locals 2
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "writer_page_break"
 
     .line 2
-    invoke-interface {v0, v1}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v0
 
@@ -3151,7 +3151,7 @@
     const/4 v0, 0x0
 
     .line 8
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v2
 
@@ -3160,7 +3160,7 @@
     const-string v3, "public_comment"
 
     .line 9
-    invoke-interface {v2, v3}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v2
 

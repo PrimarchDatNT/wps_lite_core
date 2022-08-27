@@ -22,14 +22,14 @@
     invoke-direct {p0, p1, p2}, Landroid/widget/FrameLayout;-><init>(Landroid/content/Context;Landroid/util/AttributeSet;)V
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
     const-string v0, "writer_popballoom_audio_comment_text_content"
 
     .line 3
-    invoke-interface {p2, v0}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {p2, v0}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v0
 
@@ -38,7 +38,7 @@
     const-string p1, "comment_text"
 
     .line 4
-    invoke-interface {p2, p1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p2, p1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result p1
 

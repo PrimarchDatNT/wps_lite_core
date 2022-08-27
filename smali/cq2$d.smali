@@ -3,7 +3,7 @@
 .source "PlatformImpl.java"
 
 # interfaces
-.implements Ljo0;
+.implements Lcom/resouce/module/IResourceManager;
 
 
 # annotations

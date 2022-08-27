@@ -384,7 +384,7 @@
     .locals 4
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -402,7 +402,7 @@
     const-string v2, "public_battery_top_height"
 
     .line 3
-    invoke-interface {v0, v2}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v2
 
@@ -415,7 +415,7 @@
     const-string v2, "public_battery_top_width"
 
     .line 4
-    invoke-interface {v0, v2}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v2
 
@@ -428,7 +428,7 @@
     const-string v2, "public_battery_height"
 
     .line 5
-    invoke-interface {v0, v2}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v2
 
@@ -450,7 +450,7 @@
     const-string v2, "public_battery_width"
 
     .line 7
-    invoke-interface {v0, v2}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v2
 
@@ -463,7 +463,7 @@
     const-string v2, "public_battery_padding"
 
     .line 8
-    invoke-interface {v0, v2}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v2
 
@@ -476,7 +476,7 @@
     const-string v2, "writer_page_num_font_size"
 
     .line 9
-    invoke-interface {v0, v2}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v0
 

@@ -30,7 +30,7 @@
 
 .field public b0:I
 
-.field public c0:Ljo0;
+.field public c0:Lcom/resouce/module/IResourceManager;
 
 .field public d0:F
 
@@ -70,11 +70,11 @@
     invoke-direct {p0, p1}, Lugk;-><init>(I)V
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
-    iput-object p1, p0, Lcni;->c0:Ljo0;
+    iput-object p1, p0, Lcni;->c0:Lcom/resouce/module/IResourceManager;
 
     .line 3
     new-instance p1, Landroid/graphics/Rect;
@@ -152,15 +152,15 @@
     iput p1, p0, Lcni;->a0:I
 
     .line 12
-    iget-object p1, p0, Lcni;->c0:Ljo0;
+    iget-object p1, p0, Lcni;->c0:Lcom/resouce/module/IResourceManager;
 
     const-string p2, "writer_render_shape_handle_point_radius"
 
-    invoke-interface {p1, p2}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {p1, p2}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result p2
 
-    invoke-interface {p1, p2}, Ljo0;->b(I)I
+    invoke-interface {p1, p2}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result p1
 
@@ -1257,11 +1257,11 @@
 
     move-result-object v0
 
-    iget-object v1, p0, Lcni;->c0:Ljo0;
+    iget-object v1, p0, Lcni;->c0:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "phone_public_hit_point_circle"
 
-    invoke-interface {v1, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v1
 

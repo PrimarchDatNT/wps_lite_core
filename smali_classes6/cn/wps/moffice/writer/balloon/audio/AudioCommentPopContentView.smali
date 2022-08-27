@@ -164,18 +164,18 @@
     .locals 5
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "writer_audio_comment_item_margin"
 
     .line 2
-    invoke-interface {v0, v1}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v2
 
-    invoke-interface {v0, v2}, Ljo0;->b(I)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result v2
 
@@ -184,31 +184,31 @@
     const-string v3, "writer_audio_comment_user_icon_width"
 
     .line 3
-    invoke-interface {v0, v3}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v3}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v3
 
-    invoke-interface {v0, v3}, Ljo0;->b(I)I
+    invoke-interface {v0, v3}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result v3
 
     .line 4
-    invoke-interface {v0, v1}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v1
 
-    invoke-interface {v0, v1}, Ljo0;->b(I)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result v1
 
     const-string v4, "writer_audio_comment_item_color_flag_width"
 
     .line 5
-    invoke-interface {v0, v4}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v4}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v4
 
-    invoke-interface {v0, v4}, Ljo0;->b(I)I
+    invoke-interface {v0, v4}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result v0
 

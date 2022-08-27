@@ -318,7 +318,7 @@
     check-cast p1, Landroid/widget/TextView;
 
     .line 5
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -332,7 +332,7 @@
     const-string p0, "public_text_size_dip"
 
     .line 7
-    invoke-interface {v0, p0}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, p0}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result p0
 
@@ -342,7 +342,7 @@
     const-string p0, "phone_public_default_text_size"
 
     .line 8
-    invoke-interface {v0, p0}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, p0}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result p0
 
@@ -352,7 +352,7 @@
     if-eqz p0, :cond_2
 
     .line 9
-    invoke-interface {v0, p0}, Ljo0;->b(I)I
+    invoke-interface {v0, p0}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result p0
 

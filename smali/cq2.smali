@@ -74,7 +74,7 @@
 
     invoke-direct {v0, p0}, Lcq2$d;-><init>(Landroid/content/Context;)V
 
-    invoke-static {v0}, Lcn/wps/core/runtime/Platform;->H0(Ljo0;)V
+    invoke-static {v0}, Lcn/wps/core/runtime/Platform;->H0(Lcom/resouce/module/IResourceManager;)V
 
     .line 6
     new-instance p0, Lcq2$a;

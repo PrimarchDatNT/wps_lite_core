@@ -1194,7 +1194,7 @@
     invoke-direct {v10}, Lv45;-><init>()V
 
     .line 21
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v12
 
@@ -1214,7 +1214,7 @@
 
     move-result-object v9
 
-    invoke-interface {v12, v9}, Ljo0;->getString(Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v12, v9}, Lcom/resouce/module/IResourceManager;->getString(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v9
 

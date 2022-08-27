@@ -244,7 +244,7 @@
     iput v1, p0, Lmag;->o:I
 
     .line 21
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v1
 
@@ -255,7 +255,7 @@
 
     const-string v3, "phone_public_fast_jump_tag"
 
-    invoke-interface {v1, v3}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v1, v3}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v3
 
@@ -272,7 +272,7 @@
 
     const-string v2, "phone_public_fast_jump_tag_h"
 
-    invoke-interface {v1, v2}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v1
 

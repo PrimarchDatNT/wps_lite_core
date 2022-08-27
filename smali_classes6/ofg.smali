@@ -6,7 +6,7 @@
 # instance fields
 .field public B:Landroid/view/LayoutInflater;
 
-.field public I:Ljo0;
+.field public I:Lcom/resouce/module/IResourceManager;
 
 .field public S:Landroid/content/Context;
 
@@ -46,13 +46,13 @@
     .end param
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "Custom_Dialog"
 
-    invoke-interface {v0, v1}, Ljo0;->k(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->k(Ljava/lang/String;)I
 
     move-result v0
 
@@ -69,11 +69,11 @@
     invoke-static {p0}, Lhd3;->checkSmartBar(Landroid/app/Dialog;)V
 
     .line 4
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
-    iput-object v0, p0, Lofg;->I:Ljo0;
+    iput-object v0, p0, Lofg;->I:Lcom/resouce/module/IResourceManager;
 
     .line 5
     iput-object p1, p0, Lofg;->S:Landroid/content/Context;
@@ -86,14 +86,14 @@
     iput-object v0, p0, Lofg;->B:Landroid/view/LayoutInflater;
 
     .line 7
-    iget-object v1, p0, Lofg;->I:Ljo0;
+    iget-object v1, p0, Lofg;->I:Lcom/resouce/module/IResourceManager;
 
     .line 8
     invoke-virtual {p0}, Lofg;->c()Ljava/lang/String;
 
     move-result-object v2
 
-    invoke-interface {v1, v2}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v1
 
@@ -107,11 +107,11 @@
     check-cast v0, Lcn/wps/moffice/common/beans/CustomDialogParentLayout;
 
     .line 10
-    iget-object v1, p0, Lofg;->I:Ljo0;
+    iget-object v1, p0, Lofg;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "custom_dialog_title"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -122,11 +122,11 @@
     iput-object v1, p0, Lofg;->Z:Landroid/view/View;
 
     .line 11
-    iget-object v1, p0, Lofg;->I:Ljo0;
+    iget-object v1, p0, Lofg;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "dialog_title"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -139,11 +139,11 @@
     iput-object v1, p0, Lofg;->Y:Landroid/widget/TextView;
 
     .line 12
-    iget-object v1, p0, Lofg;->I:Ljo0;
+    iget-object v1, p0, Lofg;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "dialog_scrollview"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -156,11 +156,11 @@
     iput-object v1, p0, Lofg;->T:Landroid/widget/ScrollView;
 
     .line 13
-    iget-object v1, p0, Lofg;->I:Ljo0;
+    iget-object v1, p0, Lofg;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "dialog_content_layout"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -173,11 +173,11 @@
     iput-object v1, p0, Lofg;->U:Landroid/view/ViewGroup;
 
     .line 14
-    iget-object v1, p0, Lofg;->I:Ljo0;
+    iget-object v1, p0, Lofg;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "customPanel"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -190,11 +190,11 @@
     iput-object v1, p0, Lofg;->V:Landroid/view/ViewGroup;
 
     .line 15
-    iget-object v1, p0, Lofg;->I:Ljo0;
+    iget-object v1, p0, Lofg;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "custom"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -207,11 +207,11 @@
     iput-object v1, p0, Lofg;->W:Landroid/view/ViewGroup;
 
     .line 16
-    iget-object v1, p0, Lofg;->I:Ljo0;
+    iget-object v1, p0, Lofg;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "dialog_bottom_layout"
 
-    invoke-interface {v1, v2}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -224,11 +224,11 @@
     iput-object v1, p0, Lofg;->X:Landroid/view/ViewGroup;
 
     .line 17
-    iget-object v2, p0, Lofg;->I:Ljo0;
+    iget-object v2, p0, Lofg;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v3, "dialog_button_positive"
 
-    invoke-interface {v2, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v2
 
@@ -243,11 +243,11 @@
     .line 18
     iget-object v1, p0, Lofg;->X:Landroid/view/ViewGroup;
 
-    iget-object v2, p0, Lofg;->I:Ljo0;
+    iget-object v2, p0, Lofg;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v3, "dialog_button_negative"
 
-    invoke-interface {v2, v3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v2
 
@@ -303,15 +303,15 @@
 
     .line 25
     :cond_0
-    iget-object v1, p0, Lofg;->I:Ljo0;
+    iget-object v1, p0, Lofg;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "phone_public_dialog_width"
 
-    invoke-interface {v1, v2}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v2
 
-    invoke-interface {v1, v2}, Ljo0;->b(I)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result v1
 
@@ -445,12 +445,12 @@
     .line 8
     iget-object v0, p0, Lofg;->B:Landroid/view/LayoutInflater;
 
-    iget-object v1, p0, Lofg;->I:Ljo0;
+    iget-object v1, p0, Lofg;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v2, "phone_public_custom_dialog_bottom_layout_vertical"
 
     .line 9
-    invoke-interface {v1, v2}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v1, v2}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v1
 
@@ -774,9 +774,9 @@
     move-result-object p2
 
     .line 6
-    iget-object v4, p0, Lofg;->I:Ljo0;
+    iget-object v4, p0, Lofg;->I:Lcom/resouce/module/IResourceManager;
 
-    invoke-interface {v4, p3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v4, p3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result p3
 
@@ -1031,16 +1031,16 @@
 
     check-cast v0, Landroid/widget/TextView;
 
-    iget-object v2, p0, Lofg;->I:Ljo0;
+    iget-object v2, p0, Lofg;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v3, "phone_public_dialog_message_fontsize"
 
     .line 3
-    invoke-interface {v2, v3}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v3
 
-    invoke-interface {v2, v3}, Ljo0;->b(I)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result v2
 
@@ -1050,16 +1050,16 @@
     invoke-virtual {v0, v1, v2}, Landroid/widget/TextView;->setTextSize(IF)V
 
     .line 5
-    iget-object v2, p0, Lofg;->I:Ljo0;
+    iget-object v2, p0, Lofg;->I:Lcom/resouce/module/IResourceManager;
 
     const-string v3, "descriptionColor"
 
     .line 6
-    invoke-interface {v2, v3}, Ljo0;->m(Ljava/lang/String;)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->m(Ljava/lang/String;)I
 
     move-result v3
 
-    invoke-interface {v2, v3}, Ljo0;->l(I)I
+    invoke-interface {v2, v3}, Lcom/resouce/module/IResourceManager;->l(I)I
 
     move-result v2
 

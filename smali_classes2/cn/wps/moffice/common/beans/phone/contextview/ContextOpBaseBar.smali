@@ -259,7 +259,7 @@
     iput-boolean p5, p0, Lcn/wps/moffice/common/beans/phone/contextview/ContextOpBaseBar;->T:Z
 
     .line 2
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
@@ -270,7 +270,7 @@
 
     const-string v2, "phone_public_op_base_bar"
 
-    invoke-interface {v0, v2}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v2
 
@@ -291,7 +291,7 @@
     const-string v1, "phone_public_menu_bg_normal"
 
     :goto_0
-    invoke-interface {v0, v1}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result v1
 
@@ -300,7 +300,7 @@
     const-string v1, "btnsbar"
 
     .line 5
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -323,7 +323,7 @@
     const-string p6, "arrow"
 
     .line 8
-    invoke-interface {v0, p6}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, p6}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -342,7 +342,7 @@
 
     const-string v1, "public_context_arrow_width"
 
-    invoke-interface {v0, v1}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result v1
 
@@ -393,7 +393,7 @@
     const-string p1, "context_menu_divideline"
 
     .line 15
-    invoke-interface {v0, p1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, p1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result p1
 
@@ -404,7 +404,7 @@
     iput-object p1, p0, Lcn/wps/moffice/common/beans/phone/contextview/ContextOpBaseBar;->S:Landroid/view/View;
 
     .line 16
-    invoke-interface {v0, p6}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, p6}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result p1
 

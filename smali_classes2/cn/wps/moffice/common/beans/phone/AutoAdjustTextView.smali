@@ -397,14 +397,14 @@
     iput v0, p0, Lcn/wps/moffice/common/beans/phone/AutoAdjustTextView;->T:I
 
     .line 3
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "AutoAdjustTextView"
 
     .line 4
-    invoke-interface {v0, v1}, Ljo0;->c(Ljava/lang/String;)[I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->c(Ljava/lang/String;)[I
 
     move-result-object v1
 
@@ -415,7 +415,7 @@
     const-string p2, "AutoAdjustTextView_myAutoSizePresetSizes"
 
     .line 5
-    invoke-interface {v0, p2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, p2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p2
 
@@ -448,7 +448,7 @@
     const-string p2, "AutoAdjustTextView_myAutoSizeMinTextSize"
 
     .line 9
-    invoke-interface {v0, p2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, p2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result p2
 
@@ -459,7 +459,7 @@
     const-string v2, "AutoAdjustTextView_myAutoSizeMaxTextSize"
 
     .line 10
-    invoke-interface {v0, v2}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, v2}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result v2
 
@@ -470,7 +470,7 @@
     const-string v3, "AutoAdjustTextView_myAutoSizeStepGranularity"
 
     .line 11
-    invoke-interface {v0, v3}, Ljo0;->e(Ljava/lang/String;)I
+    invoke-interface {v0, v3}, Lcom/resouce/module/IResourceManager;->e(Ljava/lang/String;)I
 
     move-result v0
 

@@ -282,14 +282,14 @@
     .locals 3
 
     .line 1
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object v0
 
     const-string v1, "writer_popballoom_audio_comment_audio_content"
 
     .line 2
-    invoke-interface {v0, v1}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result v1
 
@@ -298,7 +298,7 @@
     const-string v1, "audio_content"
 
     .line 3
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v1
 
@@ -322,7 +322,7 @@
 
     const-string p4, "audio_icon"
 
-    invoke-interface {v0, p4}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, p4}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result p4
 
@@ -337,7 +337,7 @@
     const-string p1, "audio_duration"
 
     .line 6
-    invoke-interface {v0, p1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, p1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result p1
 
@@ -401,11 +401,11 @@
     const-string p1, "writer_audio_comment_item_audio_height"
 
     .line 12
-    invoke-interface {v0, p1}, Ljo0;->a(Ljava/lang/String;)I
+    invoke-interface {v0, p1}, Lcom/resouce/module/IResourceManager;->a(Ljava/lang/String;)I
 
     move-result p1
 
-    invoke-interface {v0, p1}, Ljo0;->b(I)I
+    invoke-interface {v0, p1}, Lcom/resouce/module/IResourceManager;->b(I)I
 
     move-result p1
 

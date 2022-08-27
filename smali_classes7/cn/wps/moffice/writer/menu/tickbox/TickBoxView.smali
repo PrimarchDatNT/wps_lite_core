@@ -17,7 +17,7 @@
 
 .field public I:Landroid/content/Context;
 
-.field public S:Ljo0;
+.field public S:Lcom/resouce/module/IResourceManager;
 
 .field public T:Lcn/wps/moffice/writer/menu/tickbox/TickBoxView$b;
 
@@ -33,22 +33,22 @@
     iput-object p1, p0, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->I:Landroid/content/Context;
 
     .line 3
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p2
 
-    iput-object p2, p0, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Ljo0;
+    iput-object p2, p0, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Lcom/resouce/module/IResourceManager;
 
     .line 4
     invoke-static {p1}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object p1
 
-    iget-object p2, p0, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Ljo0;
+    iget-object p2, p0, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Lcom/resouce/module/IResourceManager;
 
     const-string v0, "writer_tickbox_bar"
 
-    invoke-interface {p2, v0}, Ljo0;->d(Ljava/lang/String;)I
+    invoke-interface {p2, v0}, Lcom/resouce/module/IResourceManager;->d(Ljava/lang/String;)I
 
     move-result p2
 
@@ -108,11 +108,11 @@
     iput-object v0, p0, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->B:Lcn/wps/moffice/writer/menu/tickbox/TickBoxView$c;
 
     .line 2
-    iget-object v0, p0, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Ljo0;
+    iget-object v0, p0, Lcn/wps/moffice/writer/menu/tickbox/TickBoxView;->S:Lcom/resouce/module/IResourceManager;
 
     const-string v1, "tickbox_listview"
 
-    invoke-interface {v0, v1}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result v0
 

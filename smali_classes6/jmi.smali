@@ -27,7 +27,7 @@
 
 .field public j:F
 
-.field public k:Ljo0;
+.field public k:Lcom/resouce/module/IResourceManager;
 
 .field public l:I
 
@@ -76,11 +76,11 @@
     iput-object p1, p0, Ljmi;->e:Landroid/graphics/Paint;
 
     .line 10
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
-    iput-object p1, p0, Ljmi;->k:Ljo0;
+    iput-object p1, p0, Ljmi;->k:Lcom/resouce/module/IResourceManager;
 
     .line 11
     invoke-static {}, Ljsi;->j()Z
@@ -89,19 +89,19 @@
 
     if-eqz p1, :cond_0
 
-    iget-object p1, p0, Ljmi;->k:Ljo0;
+    iget-object p1, p0, Ljmi;->k:Lcom/resouce/module/IResourceManager;
 
     const-string v0, "phone_writer_ribbonicon_bookmark"
 
     goto :goto_0
 
     :cond_0
-    iget-object p1, p0, Ljmi;->k:Ljo0;
+    iget-object p1, p0, Ljmi;->k:Lcom/resouce/module/IResourceManager;
 
     const-string v0, "writer_bookmark_item_indoc"
 
     :goto_0
-    invoke-interface {p1, v0}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {p1, v0}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result p1
 

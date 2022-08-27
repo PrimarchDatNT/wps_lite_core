@@ -28,7 +28,7 @@
 
 .field public S:I
 
-.field public final T:Ljo0;
+.field public final T:Lcom/resouce/module/IResourceManager;
 
 
 # direct methods
@@ -107,21 +107,21 @@
     iput p3, p0, Lt0m;->B:F
 
     .line 3
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
-    iput-object p1, p0, Lt0m;->T:Ljo0;
+    iput-object p1, p0, Lt0m;->T:Lcom/resouce/module/IResourceManager;
 
     .line 4
-    invoke-interface {p1, p4}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {p1, p4}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result p2
 
     iput p2, p0, Lt0m;->I:I
 
     .line 5
-    invoke-interface {p1, p5}, Ljo0;->g(Ljava/lang/String;)I
+    invoke-interface {p1, p5}, Lcom/resouce/module/IResourceManager;->g(Ljava/lang/String;)I
 
     move-result p1
 
@@ -175,11 +175,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lt0m;->T:Ljo0;
+    iget-object v0, p0, Lt0m;->T:Lcom/resouce/module/IResourceManager;
 
     iget v1, p0, Lt0m;->I:I
 
-    invoke-interface {v0, v1}, Ljo0;->getString(I)Ljava/lang/String;
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 
@@ -190,11 +190,11 @@
     .locals 2
 
     .line 1
-    iget-object v0, p0, Lt0m;->T:Ljo0;
+    iget-object v0, p0, Lt0m;->T:Lcom/resouce/module/IResourceManager;
 
     iget v1, p0, Lt0m;->S:I
 
-    invoke-interface {v0, v1}, Ljo0;->getString(I)Ljava/lang/String;
+    invoke-interface {v0, v1}, Lcom/resouce/module/IResourceManager;->getString(I)Ljava/lang/String;
 
     move-result-object v0
 

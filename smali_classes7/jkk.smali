@@ -108,7 +108,7 @@
     if-nez p6, :cond_7
 
     .line 9
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p6
 
@@ -117,7 +117,7 @@
 
     move-result-object v0
 
-    invoke-interface {p6, v0}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {p6, v0}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result p6
 
@@ -399,7 +399,7 @@
     if-nez p6, :cond_7
 
     .line 9
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p6
 
@@ -408,7 +408,7 @@
 
     move-result-object v0
 
-    invoke-interface {p6, v0}, Ljo0;->h(Ljava/lang/String;)I
+    invoke-interface {p6, v0}, Lcom/resouce/module/IResourceManager;->h(Ljava/lang/String;)I
 
     move-result p6
 

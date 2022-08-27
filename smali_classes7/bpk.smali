@@ -34,14 +34,14 @@
     iput-object p4, p0, Lbpk;->c:Lcn/wps/moffice/writer/shape/objectview/ObjectView;
 
     .line 5
-    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Ljo0;
+    invoke-static {}, Lcn/wps/core/runtime/Platform;->O()Lcom/resouce/module/IResourceManager;
 
     move-result-object p1
 
     const-string p3, "animation_root"
 
     .line 6
-    invoke-interface {p1, p3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p1, p3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result p3
 
@@ -54,7 +54,7 @@
     const-string p3, "animation_alpha"
 
     .line 7
-    invoke-interface {p1, p3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p1, p3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result p3
 
@@ -67,7 +67,7 @@
     const-string p3, "animation_object_view"
 
     .line 8
-    invoke-interface {p1, p3}, Ljo0;->i(Ljava/lang/String;)I
+    invoke-interface {p1, p3}, Lcom/resouce/module/IResourceManager;->i(Ljava/lang/String;)I
 
     move-result p1
 
