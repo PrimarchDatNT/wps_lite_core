@@ -408,7 +408,7 @@
     .locals 0
 
     .line 1
-    invoke-static {p0, p1}, Lcom/mopub/KAd;->init(Landroid/content/Context;Ljava/lang/String;)V
+    #invoke-static {p0, p1}, Lcom/mopub/KAd;->init(Landroid/content/Context;Ljava/lang/String;)V
 
     .line 2
     new-instance p0, Lcp2;
@@ -428,54 +428,54 @@
 .method public static f()V
     .locals 2
 
-    const-string v0, "ad_complaint"
+    #const-string v0, "ad_complaint"
 
-    const-string v1, "splash_ad"
+    #const-string v1, "splash_ad"
 
-    .line 1
-    invoke-static {v0, v1}, Lcn/wps/moffice/main/common/ServerParamsUtil;->v(Ljava/lang/String;Ljava/lang/String;)Z
+    #.line 1
+    #invoke-static {v0, v1}, Lcn/wps/moffice/main/common/ServerParamsUtil;->v(Ljava/lang/String;Ljava/lang/String;)Z
 
-    move-result v1
+    #move-result v1
 
-    .line 2
-    invoke-static {v1}, Lcom/mopub/common/util/AdConfigUtil;->setSplashAdComplaintEnable(Z)V
+    #.line 2
+    #invoke-static {v1}, Lcom/mopub/common/util/AdConfigUtil;->setSplashAdComplaintEnable(Z)V
 
-    const-string v1, "close_file_ad"
+    #const-string v1, "close_file_ad"
 
-    .line 3
-    invoke-static {v0, v1}, Lcn/wps/moffice/main/common/ServerParamsUtil;->v(Ljava/lang/String;Ljava/lang/String;)Z
+    #.line 3
+    #invoke-static {v0, v1}, Lcn/wps/moffice/main/common/ServerParamsUtil;->v(Ljava/lang/String;Ljava/lang/String;)Z
 
-    move-result v1
+    #move-result v1
 
-    .line 4
-    invoke-static {v1}, Lcom/mopub/common/util/AdConfigUtil;->setCloseFileAdComplaintEnable(Z)V
+    #.line 4
+    #invoke-static {v1}, Lcom/mopub/common/util/AdConfigUtil;->setCloseFileAdComplaintEnable(Z)V
 
-    const-string v1, "bottom_flow_ad"
+    #const-string v1, "bottom_flow_ad"
 
-    .line 5
-    invoke-static {v0, v1}, Lcn/wps/moffice/main/common/ServerParamsUtil;->v(Ljava/lang/String;Ljava/lang/String;)Z
+    #.line 5
+    #invoke-static {v0, v1}, Lcn/wps/moffice/main/common/ServerParamsUtil;->v(Ljava/lang/String;Ljava/lang/String;)Z
 
-    move-result v1
+    #move-result v1
 
-    .line 6
-    invoke-static {v1}, Lcom/mopub/common/util/AdConfigUtil;->setBottomFlowAdComplaintEnable(Z)V
+    #.line 6
+    #invoke-static {v1}, Lcom/mopub/common/util/AdConfigUtil;->setBottomFlowAdComplaintEnable(Z)V
 
-    const-string v1, "home_flow_ad"
+    #const-string v1, "home_flow_ad"
 
-    .line 7
-    invoke-static {v0, v1}, Lcn/wps/moffice/main/common/ServerParamsUtil;->v(Ljava/lang/String;Ljava/lang/String;)Z
+    #.line 7
+    #invoke-static {v0, v1}, Lcn/wps/moffice/main/common/ServerParamsUtil;->v(Ljava/lang/String;Ljava/lang/String;)Z
 
-    move-result v0
+    #move-result v0
 
-    .line 8
-    invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setHomeFlowAdComplaintEnable(Z)V
+    #.line 8
+    #invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setHomeFlowAdComplaintEnable(Z)V
 
-    .line 9
-    invoke-static {}, Lzq6;->a()J
+    #.line 9
+    #invoke-static {}, Lzq6;->a()J
 
-    move-result-wide v0
+    #move-result-wide v0
 
-    invoke-static {v0, v1}, Lcom/mopub/common/util/AdConfigUtil;->setAdShieldDuration(J)V
+    #invoke-static {v0, v1}, Lcom/mopub/common/util/AdConfigUtil;->setAdShieldDuration(J)V
 
     return-void
 .end method
@@ -483,60 +483,60 @@
 .method public static g()V
     .locals 4
 
-    .line 1
-    new-instance v0, Lcn/wps/moffice/main/info/DeviceInfo;
+    #.line 1
+    #new-instance v0, Lcn/wps/moffice/main/info/DeviceInfo;
 
-    invoke-direct {v0}, Lcn/wps/moffice/main/info/DeviceInfo;-><init>()V
+    #invoke-direct {v0}, Lcn/wps/moffice/main/info/DeviceInfo;-><init>()V
 
-    .line 2
-    invoke-static {}, Ldh6;->b()Ldh6;
+    #.line 2
+    #invoke-static {}, Ldh6;->b()Ldh6;
 
-    move-result-object v1
+    #move-result-object v1
 
-    invoke-virtual {v1}, Ldh6;->getContext()Landroid/content/Context;
+    #invoke-virtual {v1}, Ldh6;->getContext()Landroid/content/Context;
 
-    move-result-object v1
+    #move-result-object v1
 
-    invoke-virtual {v0, v1}, Lcn/wps/moffice/main/info/DeviceInfo;->c(Landroid/content/Context;)V
+    #invoke-virtual {v0, v1}, Lcn/wps/moffice/main/info/DeviceInfo;->c(Landroid/content/Context;)V
 
-    .line 3
-    invoke-static {}, Lzq6;->c()Ljava/util/Map;
+    #.line 3
+    #invoke-static {}, Lzq6;->c()Ljava/util/Map;
 
-    move-result-object v1
+    #move-result-object v1
 
-    invoke-static {v1}, Lcom/mopub/common/util/AdConfigUtil;->setInterceptDomains(Ljava/util/Map;)V
+    #invoke-static {v1}, Lcom/mopub/common/util/AdConfigUtil;->setInterceptDomains(Ljava/util/Map;)V
 
-    .line 4
-    invoke-static {}, Lzq6;->b()Ljava/lang/String;
+    #.line 4
+    #invoke-static {}, Lzq6;->b()Ljava/lang/String;
 
-    move-result-object v1
+    #move-result-object v1
 
-    invoke-static {v1}, Lcom/mopub/common/util/AdConfigUtil;->setHttpDNSServerUrl(Ljava/lang/String;)V
+    #invoke-static {v1}, Lcom/mopub/common/util/AdConfigUtil;->setHttpDNSServerUrl(Ljava/lang/String;)V
 
-    .line 5
-    invoke-static {}, Ljm8;->a()Lgm8;
+    #.line 5
+    #invoke-static {}, Ljm8;->a()Lgm8;
 
-    move-result-object v1
+    #move-result-object v1
 
-    sget-object v2, Lod8;->F1:Lod8;
+    #sget-object v2, Lod8;->F1:Lod8;
 
-    const-string v3, ""
+    #const-string v3, ""
 
-    invoke-interface {v1, v2, v3}, Lgm8;->y(Lhm8;Ljava/lang/String;)Ljava/lang/String;
+    #invoke-interface {v1, v2, v3}, Lgm8;->y(Lhm8;Ljava/lang/String;)Ljava/lang/String;
 
-    move-result-object v1
+    #move-result-object v1
 
-    invoke-static {v1}, Lcom/mopub/common/util/AdConfigUtil;->setGaid(Ljava/lang/String;)V
+    #invoke-static {v1}, Lcom/mopub/common/util/AdConfigUtil;->setGaid(Ljava/lang/String;)V
 
-    .line 6
-    iget-object v1, v0, Lcn/wps/moffice/main/info/DeviceInfo;->device_id:Ljava/lang/String;
+    #.line 6
+    #iget-object v1, v0, Lcn/wps/moffice/main/info/DeviceInfo;->device_id:Ljava/lang/String;
 
-    invoke-static {v1}, Lcom/mopub/common/util/AdConfigUtil;->setDeviceIDForCheck(Ljava/lang/String;)V
+    #invoke-static {v1}, Lcom/mopub/common/util/AdConfigUtil;->setDeviceIDForCheck(Ljava/lang/String;)V
 
-    .line 7
-    iget-object v0, v0, Lcn/wps/moffice/main/info/DeviceInfo;->channel:Ljava/lang/String;
+    #.line 7
+    #iget-object v0, v0, Lcn/wps/moffice/main/info/DeviceInfo;->channel:Ljava/lang/String;
 
-    invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setChannel(Ljava/lang/String;)V
+    #invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setChannel(Ljava/lang/String;)V
 
     return-void
 .end method
@@ -589,74 +589,74 @@
 .method public static i()V
     .locals 2
 
-    .line 1
-    invoke-static {}, Lcd8;->c()I
+    #.line 1
+    #invoke-static {}, Lcd8;->c()I
 
-    move-result v0
+    #move-result v0
 
-    invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setGdprConsent(I)V
+    #invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setGdprConsent(I)V
 
-    .line 2
-    sget-object v0, Lzm8;->b:Ljava/lang/String;
+    #.line 2
+    #sget-object v0, Lzm8;->b:Ljava/lang/String;
 
-    sget-object v1, Lzm8;->h:Ljava/lang/String;
+    #sget-object v1, Lzm8;->h:Ljava/lang/String;
 
-    invoke-static {v0, v1}, Lcn/wps/moffice/main/common/ServerParamsUtil;->F(Ljava/lang/String;Ljava/lang/String;)Z
+    #invoke-static {v0, v1}, Lcn/wps/moffice/main/common/ServerParamsUtil;->F(Ljava/lang/String;Ljava/lang/String;)Z
 
-    move-result v0
+    #move-result v0
 
-    invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setGdprCmpStatus(Z)V
+    #invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setGdprCmpStatus(Z)V
 
-    .line 3
-    sget-object v0, Lzm8;->g:Ljava/lang/String;
+    #.line 3
+    #sget-object v0, Lzm8;->g:Ljava/lang/String;
 
-    invoke-static {v0}, Lzm8;->g(Ljava/lang/String;)Z
+    #invoke-static {v0}, Lzm8;->g(Ljava/lang/String;)Z
 
-    move-result v0
+    #move-result v0
 
-    invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setUnityGdprOpen(Z)V
+    #invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setUnityGdprOpen(Z)V
 
-    .line 4
-    sget-object v0, Lzm8;->d:Ljava/lang/String;
+    #.line 4
+    #sget-object v0, Lzm8;->d:Ljava/lang/String;
 
-    invoke-static {v0}, Lzm8;->g(Ljava/lang/String;)Z
+    #invoke-static {v0}, Lzm8;->g(Ljava/lang/String;)Z
 
-    move-result v0
+    #move-result v0
 
-    invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setAdmobGdprOpen(Z)V
+    #invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setAdmobGdprOpen(Z)V
 
-    .line 5
-    sget-object v0, Lzm8;->e:Ljava/lang/String;
+    #.line 5
+    #sget-object v0, Lzm8;->e:Ljava/lang/String;
 
-    invoke-static {v0}, Lzm8;->g(Ljava/lang/String;)Z
+    #invoke-static {v0}, Lzm8;->g(Ljava/lang/String;)Z
 
-    move-result v0
+    #move-result v0
 
-    invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setFbGdprOpen(Z)V
+    #invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setFbGdprOpen(Z)V
 
-    .line 6
-    sget-object v0, Lzm8;->c:Ljava/lang/String;
+    #.line 6
+    #sget-object v0, Lzm8;->c:Ljava/lang/String;
 
-    invoke-static {v0}, Lzm8;->g(Ljava/lang/String;)Z
+    #invoke-static {v0}, Lzm8;->g(Ljava/lang/String;)Z
 
-    move-result v0
+    #move-result v0
 
-    invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setMopubGdprOpen(Z)V
+    #invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setMopubGdprOpen(Z)V
 
-    .line 7
-    invoke-static {}, Lcn/wps/moffice/define/VersionManager;->N()Z
+    #.line 7
+    #invoke-static {}, Lcn/wps/moffice/define/VersionManager;->N()Z
 
-    move-result v0
+    #move-result v0
 
-    invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setGdprVersion(Z)V
+    #invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setGdprVersion(Z)V
 
-    const/4 v0, 0x0
+    #const/4 v0, 0x0
 
-    .line 8
-    invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setNeedShowPrivacyPage(Z)V
+    #.line 8
+    #invoke-static {v0}, Lcom/mopub/common/util/AdConfigUtil;->setNeedShowPrivacyPage(Z)V
 
-    .line 9
-    invoke-static {}, Lcom/wps/overseaad/s2s/util/InstallAppInfoUtil;->requestPkgList()V
+    #.line 9
+    #invoke-static {}, Lcom/wps/overseaad/s2s/util/InstallAppInfoUtil;->requestPkgList()V
 
     return-void
 .end method
@@ -664,13 +664,13 @@
 .method public static j(Landroid/content/Context;Ljava/lang/String;)V
     .locals 0
 
-    .line 1
-    invoke-static {p0}, Lcom/mopub/common/util/AppGlobal;->setContext(Landroid/content/Context;)V
+    #.line 1
+    #invoke-static {p0}, Lcom/mopub/common/util/AppGlobal;->setContext(Landroid/content/Context;)V
 
-    .line 2
-    invoke-static {p1}, Lcom/mopub/nativeads/MoPubAdsUtils;->setAdmobAppId(Ljava/lang/String;)V
+    #.line 2
+    #invoke-static {p1}, Lcom/mopub/nativeads/MoPubAdsUtils;->setAdmobAppId(Ljava/lang/String;)V
 
-    .line 3
+    #.line 3
     new-instance p0, Lcp2;
 
     invoke-direct {p0}, Lcp2;-><init>()V
